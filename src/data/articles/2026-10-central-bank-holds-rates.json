@@ -1,0 +1,39 @@
+{
+  "id": "2026-10-central-bank-holds-rates",
+  "slug": "aurelian-central-bank-holds-rates-signals-patience-on-inflation",
+  "headline": "Aurelian Central Bank holds rates steady, signals patience on inflation",
+  "subheadline": "Policymakers kept the benchmark rate at 3.25% for a fourth consecutive meeting.",
+  "description": "The Aurelian Central Bank left its benchmark interest rate unchanged at 3.25% for a fourth consecutive meeting, saying it needs more evidence that services inflation is easing.",
+  "category": "business",
+  "author": "j-okafor",
+  "datePublished": "2026-10-29T14:00:00+01:00",
+  "dateModified": "2026-10-29T16:30:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/central-bank.jpg",
+    "alt": "Facade of a grand historic bank building with ornate stonework and columns",
+    "caption": "A historic central bank building (file photo). Policymakers held rates for a fourth consecutive meeting.",
+    "credit": "Photo: Vyacheslav Argenberg / Wikimedia Commons (CC BY 4.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["interest rates", "inflation", "central bank", "economy"],
+  "related": ["2026-11-northwind-energy-record-quarter", "2026-10-opposition-housing-plan-regional-elections"],
+  "featured": false,
+  "breaking": false,
+  "trending": false,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Aurelian Central Bank holds rates at 3.25%, signals patience",
+    "description": "Aurelia's central bank holds its benchmark rate at 3.25% for a fourth meeting, wanting more evidence that services inflation is easing."
+  },
+  "body": [
+    "<strong>AURELIA CITY</strong> — The Aurelian Central Bank left its benchmark rate unchanged at 3.25% on Wednesday, as widely expected, and gave little indication that cuts are imminent.",
+    "In its statement the bank said headline inflation had fallen to 2.6% but that services prices were still rising at an annual rate above 4%, driven by wages and rents.",
+    { "type": "heading", "text": "Why the bank is waiting" },
+    "Officials pointed to a tight labour market and a rebound in housing costs as reasons to hold. Two members of the nine-person committee voted for a quarter-point cut, one more than at the previous meeting.",
+    { "type": "quote", "text": "We would rather be criticised for being late than for being wrong.", "cite": "Central bank governor, press conference" },
+    "Markets now price the first cut for March 2027. Mortgage lenders said fixed-rate products were unlikely to fall meaningfully before then, a point seized on by opposition politicians campaigning on housing costs ahead of regional elections.",
+    "The bank's next decision is due on 10 December."
+  ]
+}

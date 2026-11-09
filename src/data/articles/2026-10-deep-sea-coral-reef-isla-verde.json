@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-deep-sea-coral-reef-isla-verde",
+  "slug": "researchers-map-deep-sea-coral-reef-discovered-off-isla-verde",
+  "headline": "Researchers map deep-sea coral reef discovered off Isla Verde",
+  "subheadline": "The cold-water reef stretches for 11 kilometres at depths of up to 600 metres and appears largely undamaged by fishing.",
+  "description": "Scientists have completed the first detailed map of a cold-water coral reef off Isla Verde, an 11-kilometre structure at depths of up to 600 metres that appears largely undamaged.",
+  "category": "science",
+  "author": "s-haddad",
+  "datePublished": "2026-10-26T10:30:00+01:00",
+  "dateModified": "2026-10-26T10:30:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/underwater-reef.jpg",
+    "alt": "Colourful corals and small fish on a shallow tropical reef in clear water",
+    "caption": "A shallow-water coral reef (file photo). Unlike tropical reefs, cold-water corals grow extremely slowly, making the Isla Verde reef potentially thousands of years old.",
+    "credit": "Photo: Steve Evans / Wikimedia Commons (CC BY 2.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["oceans", "biodiversity", "Isla Verde", "marine science"],
+  "related": ["2026-11-isla-verde-ferry-link-restored", "2026-11-coastal-cities-flood-defence-fund", "2026-10-urban-tree-cover-heat-study"],
+  "featured": true,
+  "breaking": false,
+  "trending": true,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Deep-sea coral reef off Isla Verde mapped for the first time",
+    "description": "Scientists map an 11km cold-water coral reef off Isla Verde at depths up to 600m, finding it largely undamaged by fishing."
+  },
+  "body": [
+    "A research team has published the first detailed map of a cold-water coral reef discovered last year off the north coast of Isla Verde, describing it as one of the most intact structures of its kind yet documented.",
+    "Using an autonomous underwater vehicle over three weeks, the team surveyed 11 kilometres of reef at depths between 350 and 600 metres. Unlike tropical reefs, cold-water corals do not rely on sunlight and grow only a few millimetres a year.",
+    { "type": "heading", "text": "Why it survived" },
+    "The researchers believe the reef escaped damage from bottom trawling because of strong currents and rocky terrain that made the area unattractive to fishing fleets. They recorded 140 species, including several fish of commercial importance in their juvenile stages.",
+    { "type": "quote", "text": "Reefs like this are nurseries. Protect the nursery and you protect the fishery.", "cite": "Lead author of the survey report" },
+    { "type": "heading", "text": "Calls for protection" },
+    "Island authorities have asked the national government to designate the area a marine protected zone. Local fishing cooperatives have expressed cautious support, provided traditional line fishing is allowed to continue.",
+    "The team will return next spring to install sensors measuring temperature and acidity, which threaten cold-water corals as the ocean absorbs more carbon dioxide."
+  ]
+}

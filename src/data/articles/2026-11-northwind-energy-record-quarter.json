@@ -1,0 +1,40 @@
+{
+  "id": "2026-11-northwind-energy-record-quarter",
+  "slug": "northwind-energy-record-quarter-offshore-wind-output",
+  "headline": "Northwind Energy posts record quarter as offshore wind output surges",
+  "subheadline": "Revenue rose 23% year on year, though the company warned of supply-chain pressure on turbine components.",
+  "description": "Northwind Energy reported record quarterly revenue, up 23%, driven by a surge in offshore wind output, while warning about supply-chain pressures on turbine components.",
+  "category": "business",
+  "author": "j-okafor",
+  "datePublished": "2026-11-05T08:15:00+01:00",
+  "dateModified": "2026-11-05T12:40:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/offshore-wind.jpg",
+    "alt": "A curved line of offshore wind turbines standing in the sea under a blue sky",
+    "caption": "An offshore wind farm (file photo). Northwind's Greyshoal array came fully online in the third quarter.",
+    "credit": "Photo: Kim Hansen / Wikimedia Commons (CC BY-SA 3.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["energy", "earnings", "renewables", "Northwind Energy"],
+  "related": ["2026-10-central-bank-holds-rates", "2026-11-coastal-cities-flood-defence-fund", "2026-10-urban-tree-cover-heat-study"],
+  "featured": true,
+  "breaking": false,
+  "trending": true,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Northwind Energy posts record quarter on offshore wind surge",
+    "description": "Northwind Energy's revenue rose 23% to a quarterly record as offshore wind output surged; the company flagged turbine supply-chain pressure."
+  },
+  "body": [
+    "<strong>AURELIA CITY</strong> — Northwind Energy reported its strongest quarter on record on Wednesday, with revenue up 23% to €2.9bn as its Greyshoal offshore array reached full capacity three months ahead of schedule.",
+    "Operating profit rose 31%, beating analyst expectations, and the company raised its full-year guidance. Shares rose 6% in early trading before settling 4% higher.",
+    { "type": "heading", "text": "Supply-chain warning" },
+    "Chief executive remarks accompanying the results struck a more cautious note on 2027, warning that lead times for gearboxes and large castings had lengthened and that two planned projects could slip by up to a year.",
+    { "type": "quote", "text": "Demand is not our problem. Getting steel, bearings and vessels in the right place at the right time is.", "cite": "Northwind Energy results statement" },
+    { "type": "heading", "text": "Market reaction" },
+    "Analysts said the results confirmed a broader trend of offshore wind operators outperforming as power-purchase agreements signed during the 2022–2024 price spike begin to deliver. Several noted that Northwind's hedging programme had protected it from this year's softer wholesale prices.",
+    "The company will pay an interim dividend of €0.18 per share. It also confirmed it is in early talks to supply electricity to a planned sea-wall and pumping programme under the new Coastal Cities Alliance flood-defence fund."
+  ]
+}

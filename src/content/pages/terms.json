@@ -1,0 +1,26 @@
+{
+  "slug": "terms",
+  "title": "Terms and Conditions",
+  "seoTitle": "Terms and Conditions",
+  "description": "The terms and conditions governing your use of The Daily Meridian website.",
+  "lastUpdated": "2026-11-08",
+  "body": [
+    { "type": "notice", "html": "<strong>Template notice.</strong> These terms are a starting template and not legal advice. Review them with a qualified professional before publishing." },
+    { "type": "heading", "text": "1. Acceptance" },
+    "By accessing this website you agree to these terms. If you do not agree, please do not use the site.",
+    { "type": "heading", "text": "2. Intellectual property" },
+    "Unless otherwise stated, all articles, graphics and other content on this site are the property of The Daily Meridian Media Ltd or its licensors and are protected by copyright. You may share links to our articles and quote short extracts with attribution. Republishing full articles requires written permission.",
+    { "type": "heading", "text": "3. Acceptable use" },
+    "You agree not to use the site in any way that is unlawful, that damages or disrupts the site, or that attempts to gain unauthorised access to any part of it.",
+    { "type": "heading", "text": "4. Accuracy of information" },
+    "We take care to ensure the accuracy of our reporting. However, content is provided for general information and should not be relied upon as professional advice. See our <a href=\"/editorial-policy.html\">Editorial Policy</a> and <a href=\"/corrections-policy.html\">Corrections Policy</a>.",
+    { "type": "heading", "text": "5. External links and advertising" },
+    "The site contains links to third-party websites and may display third-party advertisements. We do not endorse and are not responsible for the content of external sites or advertisements.",
+    { "type": "heading", "text": "6. Limitation of liability" },
+    "To the fullest extent permitted by law, we exclude liability for any loss or damage arising from your use of, or inability to use, this website.",
+    { "type": "heading", "text": "7. Changes" },
+    "We may revise these terms at any time. Continued use of the site after changes are published constitutes acceptance of the revised terms.",
+    { "type": "heading", "text": "8. Governing law" },
+    "These terms are governed by the laws of the jurisdiction in which The Daily Meridian Media Ltd is established."
+  ]
+}

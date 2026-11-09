@@ -1,0 +1,39 @@
+{
+  "id": "2026-11-isla-verde-ferry-link-restored",
+  "slug": "isla-verde-ferry-link-restored-after-five-year-closure",
+  "headline": "Isla Verde ferry link restored after five-year closure",
+  "subheadline": "The first scheduled crossing since 2021 carried 300 passengers, many of them islanders returning to visit relatives.",
+  "description": "A passenger ferry between Isla Verde and the mainland has resumed service after a five-year closure caused by storm damage to the island's harbour.",
+  "category": "world",
+  "author": "a-rossi",
+  "datePublished": "2026-11-06T11:00:00+01:00",
+  "dateModified": "2026-11-06T11:00:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/ferry-harbour.jpg",
+    "alt": "A small passenger ferry moored at a harbour quay",
+    "caption": "A passenger ferry at a harbour quay (file photo). The restored Isla Verde service will run twice daily.",
+    "credit": "Photo: Ciara Ní Riain / Wikimedia Commons (CC BY-SA 4.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["Isla Verde", "transport", "islands"],
+  "related": ["2026-11-coastal-cities-flood-defence-fund", "2026-10-deep-sea-coral-reef-isla-verde"],
+  "featured": false,
+  "breaking": false,
+  "trending": false,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Isla Verde ferry link restored after five-year closure",
+    "description": "The Isla Verde passenger ferry has resumed service for the first time since storm damage closed the island's harbour in 2021."
+  },
+  "body": [
+    "<strong>ISLA VERDE</strong> — Cheers greeted the first scheduled ferry to dock at Isla Verde's harbour in five years on Friday morning, marking the end of a closure that had cut the island off from regular passenger services since a winter storm destroyed its breakwater in 2021.",
+    "The rebuilt harbour includes a higher breakwater, a floating pontoon designed to cope with larger tidal ranges and a small passenger terminal. Construction was repeatedly delayed by funding disputes and two further storm seasons.",
+    { "type": "heading", "text": "Life without the ferry" },
+    "For most of the closure, islanders depended on a small air shuttle and occasional cargo boats. Residents said the cost of travel had pushed younger families to leave, and the island's population fell by almost a fifth.",
+    { "type": "quote", "text": "My grandchildren have never been able to just come for the weekend. Today they are on that boat.", "cite": "Isla Verde resident, speaking at the harbour" },
+    "The service will initially run twice daily, increasing to four crossings in summer. The operator says it expects demand from tourists keen to visit the island's recently mapped deep-sea coral reef, which scientists described last month.",
+    "Isla Verde will host the next Coastal Cities Alliance summit in 2027."
+  ]
+}

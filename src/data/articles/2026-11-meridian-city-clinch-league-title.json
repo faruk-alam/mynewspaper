@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-meridian-city-clinch-league-title",
+  "slug": "meridian-city-clinch-league-title-with-last-minute-winner",
+  "headline": "Meridian City clinch league title with last-minute winner",
+  "subheadline": "A 94th-minute header from substitute Tomas Vidal sealed a 2-1 win and the club's first championship in 31 years.",
+  "description": "Meridian City won their first league title in 31 years after substitute Tomas Vidal scored a 94th-minute winner in a 2-1 victory over Harbour United.",
+  "category": "sports",
+  "author": "d-walsh",
+  "datePublished": "2026-11-07T19:55:00+01:00",
+  "dateModified": "2026-11-07T22:10:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/football-stadium.jpg",
+    "alt": "Panoramic view of a floodlit football match from the stands, with spectators in the foreground",
+    "caption": "A floodlit evening match (file photo). The Meridian Arena erupted at the final whistle.",
+    "credit": "Photo: Krzysztof Popławski / Wikimedia Commons (CC BY 4.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["football", "Meridian City", "league title"],
+  "related": ["2026-10-valmora-marathon-record-shoe-debate", "2026-11-opinion-four-day-week-trust"],
+  "featured": true,
+  "breaking": true,
+  "trending": true,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Meridian City win league title with 94th-minute Vidal winner",
+    "description": "Tomas Vidal's 94th-minute header gave Meridian City a 2-1 win over Harbour United and a first league championship in 31 years."
+  },
+  "body": [
+    "<strong>MERIDIAN ARENA</strong> — Thirty-one years of waiting ended in the fourth minute of stoppage time on Saturday when Tomas Vidal, on the pitch for barely ten minutes, rose above two defenders to head Meridian City to a 2-1 win and the league title.",
+    "City had led through an early strike from captain Ana Ferreira before Harbour United equalised from a disputed penalty just after the hour. A draw would have taken the title race to the final day.",
+    { "type": "heading", "text": "How the match unfolded" },
+    { "type": "list", "items": [
+      "12' — Ferreira curls in from the edge of the box after a short corner. 1-0.",
+      "63' — Penalty awarded for handball after a long review. Converted low to the left. 1-1.",
+      "84' — Vidal replaces the tiring Ferreira to a standing ovation.",
+      "90+4' — Vidal meets a deep cross from the right. 2-1."
+    ] },
+    { "type": "quote", "text": "I didn't see it go in. I just heard the noise and knew.", "cite": "Tomas Vidal, speaking after the match" },
+    { "type": "heading", "text": "A long road back" },
+    "City were relegated twice in the intervening decades and came close to bankruptcy in 2015 before a supporters' trust took a controlling stake. The club's manager, appointed three seasons ago, becomes the first to win the title with a majority fan-owned club.",
+    "Harbour United can still qualify for continental competition with a win next weekend. City's open-top bus parade is planned for Sunday afternoon."
+  ]
+}

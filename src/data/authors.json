@@ -1,0 +1,82 @@
+[
+  {
+    "id": "editorial-team",
+    "name": "Meridian Newsroom",
+    "slug": "meridian-newsroom",
+    "role": "Editorial Team",
+    "bio": "Reporting and editing by the demonstration newsroom of The Daily Meridian. This is a placeholder author profile used for sample content.",
+    "image": "/assets/images/brand/avatar-default.svg",
+    "twitter": "",
+    "email": "newsroom@example.com"
+  },
+  {
+    "id": "a-rossi",
+    "name": "Alessia Rossi",
+    "slug": "alessia-rossi",
+    "role": "World Affairs Correspondent (demo profile)",
+    "bio": "Alessia Rossi is a fictional demonstration author profile covering international affairs for The Daily Meridian sample newsroom.",
+    "image": "/assets/images/brand/avatar-default.svg",
+    "twitter": "",
+    "email": ""
+  },
+  {
+    "id": "j-okafor",
+    "name": "James Okafor",
+    "slug": "james-okafor",
+    "role": "Business Editor (demo profile)",
+    "bio": "James Okafor is a fictional demonstration author profile writing about markets, companies and the economy.",
+    "image": "/assets/images/brand/avatar-default.svg",
+    "twitter": "",
+    "email": ""
+  },
+  {
+    "id": "m-chen",
+    "name": "Mei Chen",
+    "slug": "mei-chen",
+    "role": "Technology Reporter (demo profile)",
+    "bio": "Mei Chen is a fictional demonstration author profile covering technology, AI and cybersecurity.",
+    "image": "/assets/images/brand/avatar-default.svg",
+    "twitter": "",
+    "email": ""
+  },
+  {
+    "id": "d-walsh",
+    "name": "Daniel Walsh",
+    "slug": "daniel-walsh",
+    "role": "Sports Writer (demo profile)",
+    "bio": "Daniel Walsh is a fictional demonstration author profile covering football and international sport.",
+    "image": "/assets/images/brand/avatar-default.svg",
+    "twitter": "",
+    "email": ""
+  },
+  {
+    "id": "s-haddad",
+    "name": "Sara Haddad",
+    "slug": "sara-haddad",
+    "role": "Science and Environment Correspondent (demo profile)",
+    "bio": "Sara Haddad is a fictional demonstration author profile reporting on science, climate and health research.",
+    "image": "/assets/images/brand/avatar-default.svg",
+    "twitter": "",
+    "email": ""
+  },
+  {
+    "id": "l-moreau",
+    "name": "Lucas Moreau",
+    "slug": "lucas-moreau",
+    "role": "Political Correspondent (demo profile)",
+    "bio": "Lucas Moreau is a fictional demonstration author profile covering politics and public policy.",
+    "image": "/assets/images/brand/avatar-default.svg",
+    "twitter": "",
+    "email": ""
+  },
+  {
+    "id": "e-novak",
+    "name": "Elena Novak",
+    "slug": "elena-novak",
+    "role": "Columnist (demo profile)",
+    "bio": "Elena Novak is a fictional demonstration columnist writing opinion and analysis pieces.",
+    "image": "/assets/images/brand/avatar-default.svg",
+    "twitter": "",
+    "email": ""
+  }
+]

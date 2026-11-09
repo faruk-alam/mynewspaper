@@ -1,0 +1,39 @@
+{
+  "id": "2026-10-opposition-housing-plan-regional-elections",
+  "slug": "opposition-unveils-housing-plan-ahead-of-regional-elections",
+  "headline": "Opposition unveils 500,000-home plan ahead of Aurelia's regional elections",
+  "subheadline": "The proposal would convert vacant commercial buildings and release public land for cooperative housing.",
+  "description": "Aurelia's main opposition party has unveiled a plan to deliver 500,000 homes over eight years, centred on converting vacant offices and releasing public land for housing cooperatives.",
+  "category": "politics",
+  "author": "l-moreau",
+  "datePublished": "2026-10-30T14:20:00+01:00",
+  "dateModified": "2026-10-30T14:20:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/housing-blocks.jpg",
+    "alt": "Modern mid-rise apartment buildings with balconies seen from street level",
+    "caption": "Modern apartment blocks (file photo). Housing costs have become the leading issue of the regional campaign.",
+    "credit": "Photo: The wub / Wikimedia Commons (CC BY-SA 4.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["Aurelia", "housing", "elections"],
+  "related": ["2026-11-aurelia-digital-services-transparency-bill", "2026-10-central-bank-holds-rates"],
+  "featured": false,
+  "breaking": false,
+  "trending": true,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Opposition unveils 500,000-home plan before Aurelia regional elections",
+    "description": "Aurelia's opposition proposes 500,000 homes in eight years via office conversions and public land for housing cooperatives."
+  },
+  "body": [
+    "<strong>AURELIA CITY</strong> — The opposition Progressive Alliance launched its housing programme on Thursday, pledging to deliver half a million homes within eight years if it wins control of the regional assemblies in next month's elections.",
+    "The centrepiece of the plan is a fast-track permitting route for converting vacant commercial buildings into flats, alongside the release of publicly owned land to housing cooperatives at below-market rates.",
+    { "type": "heading", "text": "The numbers" },
+    "Party officials say 180,000 homes could come from conversions, 220,000 from cooperative developments on public land and the remainder from an expanded social housing budget. Independent analysts described the conversion target as 'ambitious but not implausible' given the high office vacancy rates in the region's larger cities.",
+    { "type": "quote", "text": "Empty offices and families in temporary accommodation are two halves of the same problem.", "cite": "Progressive Alliance housing spokesperson" },
+    "The governing coalition dismissed the plan as uncosted, pointing out that the regional assemblies do not control the central bank or national tax policy. Rates were held steady again this month, keeping mortgage costs high.",
+    "Polls suggest housing has overtaken healthcare as the top concern for voters under 40 in the region."
+  ]
+}

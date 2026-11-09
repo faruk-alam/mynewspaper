@@ -1,0 +1,61 @@
+name: Build and deploy
+
+# Builds the static site on every push to main and publishes the generated dist/ folder
+# to the "deploy" branch. In Hostinger hPanel → Websites → Git, connect this repository and
+# choose branch "deploy" with the install path set to public_html.
+#
+# Optional: add a repository secret HOSTINGER_DEPLOY_WEBHOOK with the "Auto deployment" webhook
+# URL from hPanel so Hostinger pulls the new build immediately instead of waiting for a manual pull.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Check links and HTML
+        run: npm run check
+
+      - name: Publish dist/ to the deploy branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: deploy
+          force_orphan: true
+          # Keep dotfiles such as .htaccess
+          exclude_assets: ''
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_message: 'Deploy site build from ${{ github.sha }}'
+
+      - name: Trigger Hostinger auto-deployment (optional)
+        if: ${{ secrets.HOSTINGER_DEPLOY_WEBHOOK != '' }}
+        run: curl -fsS -X POST "${{ secrets.HOSTINGER_DEPLOY_WEBHOOK }}"

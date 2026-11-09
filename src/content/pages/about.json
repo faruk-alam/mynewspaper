@@ -1,0 +1,24 @@
+{
+  "slug": "about",
+  "title": "About The Daily Meridian",
+  "seoTitle": "About Us",
+  "description": "Learn about The Daily Meridian: who we are, what we cover and how our newsroom works.",
+  "lastUpdated": "2026-11-08",
+  "body": [
+    { "type": "notice", "html": "<strong>Demonstration website.</strong> The Daily Meridian is a sample digital newspaper built to showcase a static publishing platform. Replace this page with your organisation's real information before launch." },
+    "The Daily Meridian is an independent digital newspaper covering world news, politics, business, technology, sports, science and opinion. We publish clear, accurate and fair reporting for readers who want to understand what is happening and why it matters.",
+    { "type": "heading", "text": "What we cover" },
+    "Our newsroom is organised into seven desks: World, Politics, Business, Technology, Sports, Science and Opinion. Each desk is led by an editor responsible for the accuracy and fairness of the stories it publishes.",
+    { "type": "heading", "text": "How we work" },
+    { "type": "list", "items": [
+      "Every news article names its author and shows the date it was published and last updated.",
+      "We separate news reporting from opinion. Commentary is clearly labelled in the Opinion section.",
+      "We correct errors promptly and transparently. See our <a href=\"/corrections-policy.html\">Corrections Policy</a>.",
+      "Our editorial standards are described in our <a href=\"/editorial-policy.html\">Editorial Policy</a>."
+    ] },
+    { "type": "heading", "text": "Ownership and funding" },
+    "The Daily Meridian is published by The Daily Meridian Media Ltd. The site is funded through display advertising and reader support. Advertising never influences editorial decisions, and advertisements are clearly distinguished from editorial content.",
+    { "type": "heading", "text": "Contact" },
+    "You can reach the newsroom via our <a href=\"/contact.html\">Contact page</a>. Meet our writers on the <a href=\"/authors/\">Our Journalists</a> page."
+  ]
+}

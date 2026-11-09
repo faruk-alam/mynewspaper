@@ -1,0 +1,40 @@
+{
+  "id": "2026-11-regulator-fines-app-developer-location-data",
+  "slug": "regulator-fines-app-developer-over-location-data-practices",
+  "headline": "Regulator fines app developer €12m over location data practices",
+  "subheadline": "Investigators found the weather app collected precise location data every few minutes even when closed.",
+  "description": "Aurelia's data protection regulator has fined the developer of a popular weather app €12m after finding it collected precise location data in the background and shared it with advertising partners.",
+  "category": "technology",
+  "author": "m-chen",
+  "datePublished": "2026-11-03T16:30:00+01:00",
+  "dateModified": "2026-11-03T16:30:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/phone-map.jpg",
+    "alt": "A hand holding a smartphone showing a navigation map app",
+    "caption": "A smartphone navigation app (file photo). The fined weather app had been downloaded more than 30 million times.",
+    "credit": "Photo: Santeri Viinamäki / Wikimedia Commons (CC BY-SA 4.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["privacy", "regulation", "mobile apps", "data protection"],
+  "related": ["2026-11-aurelia-digital-services-transparency-bill", "2026-10-lumen-3-open-source-model-released"],
+  "featured": false,
+  "breaking": false,
+  "trending": true,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "App developer fined €12m over background location data collection",
+    "description": "Aurelia's privacy regulator fines a weather app developer €12m for collecting precise background location data and sharing it with advertisers."
+  },
+  "body": [
+    "Aurelia's data protection authority announced a €12m fine on Tuesday against the developer of a widely used weather application, concluding a two-year investigation into how the app handled location data.",
+    "Investigators found that the app requested 'always on' location access under the justification of severe weather alerts, then transmitted precise coordinates to at least six advertising partners roughly every four minutes, including overnight.",
+    { "type": "heading", "text": "The regulator's findings" },
+    "The authority said users were not clearly told that location data would be sold, and that the app's privacy policy described the practice only in a general clause about 'service improvement'.",
+    { "type": "quote", "text": "A forecast does not require knowing which building a person sleeps in.", "cite": "Data protection authority decision" },
+    "The developer said it had already stopped sharing location data with third parties in 2025 and would appeal the size of the fine, which it called disproportionate for a company of its size.",
+    { "type": "heading", "text": "Wider implications" },
+    "Privacy advocates said the decision set a useful precedent on the difference between data needed to provide a service and data collected because it is valuable. The ruling comes as parliament debates new transparency rules for large platforms."
+  ]
+}

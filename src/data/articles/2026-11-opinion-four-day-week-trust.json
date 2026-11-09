@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-opinion-four-day-week-trust",
+  "slug": "why-the-four-day-week-debate-is-really-about-trust",
+  "headline": "Why the four-day week debate is really about trust",
+  "subheadline": "Every argument about shorter working weeks eventually turns out to be an argument about whether managers believe their staff.",
+  "description": "Column: The four-day week debate is framed as a question of productivity, but it is really a question of whether employers trust their employees.",
+  "category": "opinion",
+  "author": "e-novak",
+  "datePublished": "2026-11-04T07:00:00+01:00",
+  "dateModified": "2026-11-04T07:00:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/office-desk.jpg",
+    "alt": "An empty desk with a laptop, notebook and lamp after the working day",
+    "caption": "An empty desk after hours (file photo). Trials of shorter working weeks have produced consistent results; the argument about them has not moved.",
+    "credit": "Photo: Luca Bravo / Wikimedia Commons (CC0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["work", "column", "management"],
+  "related": ["2026-11-analysis-valmora-summit-small-island-states", "2026-10-central-bank-holds-rates", "2026-11-meridian-city-clinch-league-title"],
+  "featured": false,
+  "breaking": false,
+  "trending": true,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Why the four-day week debate is really about trust | Opinion",
+    "description": "Column: strip away the productivity statistics and the four-day week debate is about whether managers believe their staff."
+  },
+  "body": [
+    "Every few months another trial of the four-day week reports its results, and every few months the same two camps restate the same two positions. Supporters cite lower burnout and stable output; sceptics cite the small sample sizes and the self-selection of companies that volunteer for such experiments.",
+    "Both are partly right, and neither is really talking about hours.",
+    { "type": "heading", "text": "The hidden question" },
+    "Strip away the statistics and the argument is about surveillance. A manager who believes work can be measured by presence will never be persuaded by a study. A manager who measures work by outcomes already knows that the fifth day is often the least productive.",
+    { "type": "quote", "text": "The four-day week does not create trust. It reveals whether it was ever there." },
+    "This is why the debate is so stubborn. It is not that the evidence is weak; it is that the evidence answers a question most organisations are not actually asking.",
+    { "type": "heading", "text": "What would change the conversation" },
+    "Instead of asking whether a shorter week 'works', we might ask what it would take for a particular team to be judged on what it delivers. That conversation is harder, less quotable and far more useful. It is also the one a fan-owned football club in Meridian City apparently had with its players three seasons ago. Readers may have noticed how that turned out.",
+    { "type": "paragraph", "html": "<em>Elena Novak is a demonstration columnist for The Daily Meridian. Opinion pieces reflect the views of their authors and not necessarily those of the publication.</em>" }
+  ]
+}

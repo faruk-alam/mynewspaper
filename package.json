@@ -1,0 +1,25 @@
+{
+  "name": "mynewspaper",
+  "version": "1.0.0",
+  "description": "Data-driven static digital newspaper publishing platform (HTML5 + Tailwind CSS + vanilla JS + Node build).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "node scripts/clean.js",
+    "build:html": "node scripts/build.js",
+    "build:css": "tailwindcss -i src/css/input.css -o dist/assets/css/styles.css --minify",
+    "build": "npm run clean && npm run build:html && npm run build:css",
+    "check": "node scripts/check-links.js",
+    "dev": "node scripts/dev-server.js",
+    "new-article": "node scripts/new-article.js",
+    "fetch-demo-images": "node scripts/fetch-demo-images.js",
+    "validate": "node scripts/build.js --validate-only"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "tailwindcss": "^3.4.17"
+  }
+}

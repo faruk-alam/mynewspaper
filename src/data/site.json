@@ -1,0 +1,66 @@
+{
+  "name": "The Daily Meridian",
+  "shortName": "Meridian",
+  "tagline": "Independent news, analysis and reporting",
+  "description": "The Daily Meridian is a modern digital newspaper covering world news, politics, business, technology, sports, science and opinion.",
+  "url": "https://www.example.com",
+  "language": "en",
+  "locale": "en_GB",
+  "timezone": "Europe/Rome",
+  "copyrightHolder": "The Daily Meridian Media Ltd",
+  "foundingYear": 2026,
+  "contactEmail": "newsroom@example.com",
+  "address": "123 Fleet Street, London, United Kingdom",
+  "logo": "/assets/images/brand/logo.svg",
+  "logoPng": "/assets/images/brand/logo-600x60.png",
+  "defaultImage": "/assets/images/brand/default-social.jpg",
+  "social": {
+    "twitter": "https://x.com/example",
+    "twitterHandle": "@example",
+    "facebook": "https://www.facebook.com/example",
+    "instagram": "https://www.instagram.com/example",
+    "linkedin": "https://www.linkedin.com/company/example",
+    "youtube": "https://www.youtube.com/@example"
+  },
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "World", "href": "/news/world/" },
+    { "label": "Politics", "href": "/news/politics/" },
+    { "label": "Business", "href": "/news/business/" },
+    { "label": "Technology", "href": "/news/technology/" },
+    { "label": "Sports", "href": "/news/sports/" },
+    { "label": "Science", "href": "/news/science/" },
+    { "label": "Opinion", "href": "/news/opinion/" }
+  ],
+  "footerNav": {
+    "Company": [
+      { "label": "About Us", "href": "/about.html" },
+      { "label": "Contact Us", "href": "/contact.html" },
+      { "label": "Our Journalists", "href": "/authors/" }
+    ],
+    "Policies": [
+      { "label": "Editorial Policy", "href": "/editorial-policy.html" },
+      { "label": "Corrections Policy", "href": "/corrections-policy.html" },
+      { "label": "Privacy Policy", "href": "/privacy-policy.html" },
+      { "label": "Terms and Conditions", "href": "/terms.html" }
+    ],
+    "More": [
+      { "label": "RSS Feed", "href": "/rss.xml" },
+      { "label": "Sitemap", "href": "/sitemap.xml" },
+      { "label": "Search", "href": "/search.html" }
+    ]
+  },
+  "homepage": {
+    "latestCount": 8,
+    "sectionCount": 4,
+    "trendingCount": 6
+  },
+  "categoryPageSize": 12,
+  "ads": {
+    "enabled": true,
+    "adsenseClient": "",
+    "note": "Set adsenseClient to your ca-pub-XXXX id and replace the markup in scripts/lib/components.js -> adSlot() after AdSense approval."
+  },
+  "demoMode": true,
+  "demoNotice": "This article is fictional demonstration content created to showcase the publishing platform. People, organisations and events described here are invented and do not refer to real events."
+}

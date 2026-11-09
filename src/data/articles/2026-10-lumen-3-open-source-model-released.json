@@ -1,0 +1,45 @@
+{
+  "id": "2026-10-lumen-3-open-source-model-released",
+  "slug": "lumen-3-open-source-language-model-released-permissive-licence",
+  "headline": "Lumen 3 open-source language model released under permissive licence",
+  "subheadline": "The non-profit Lumen Foundation says the 40-billion-parameter model can run on a single workstation GPU.",
+  "description": "The Lumen Foundation has released Lumen 3, a 40-billion-parameter open-source language model under a permissive licence, saying it can run on a single workstation GPU.",
+  "category": "technology",
+  "author": "m-chen",
+  "datePublished": "2026-10-27T09:00:00+01:00",
+  "dateModified": "2026-10-28T10:15:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/server-racks.jpg",
+    "alt": "Rows of server racks with cabling inside a data centre",
+    "caption": "Server racks in a data centre (file photo). Lumen 3 was trained on a cluster donated by three universities, the foundation says.",
+    "credit": "Photo: Carl Lender / Wikimedia Commons (CC BY 2.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["artificial intelligence", "open source", "Lumen Foundation"],
+  "related": ["2026-11-regulator-fines-app-developer-location-data", "2026-11-aurelia-digital-services-transparency-bill"],
+  "featured": true,
+  "breaking": false,
+  "trending": true,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Lumen 3 open-source AI model released under permissive licence",
+    "description": "Lumen Foundation releases Lumen 3, a 40B-parameter open-source language model that runs on a single workstation GPU."
+  },
+  "body": [
+    "The Lumen Foundation released the third generation of its open-source language model on Tuesday, publishing weights, training code and a detailed data statement under a permissive licence that allows commercial use.",
+    "Lumen 3 has 40 billion parameters and, according to the foundation, runs at usable speeds on a single consumer graphics card when quantised. Independent developers who received early access reported similar results.",
+    { "type": "heading", "text": "What is different this time" },
+    { "type": "list", "items": [
+      "A published list of every data source used in training, with licensing status.",
+      "An opt-out registry for website owners honoured during the crawl.",
+      "A model card describing known weaknesses, including weaker performance in low-resource languages."
+    ] },
+    "The foundation said transparency about training data was a direct response to lawsuits facing commercial model developers and to forthcoming disclosure rules in several jurisdictions.",
+    { "type": "quote", "text": "If you cannot say what your model learned from, you cannot honestly say what it is good for.", "cite": "Lumen Foundation release notes" },
+    { "type": "heading", "text": "Early reactions" },
+    "Researchers praised the data statement but noted that Lumen 3 still trails the largest commercial models on reasoning benchmarks. Several small businesses said the ability to run the model locally, without sending customer data to a third party, mattered more to them than benchmark scores.",
+    "Downloads passed 200,000 within the first 24 hours, the foundation said."
+  ]
+}

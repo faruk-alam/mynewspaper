@@ -1,0 +1,39 @@
+{
+  "id": "2026-10-valmora-marathon-record-shoe-debate",
+  "slug": "valmora-marathon-record-falls-as-shoe-technology-debate-intensifies",
+  "headline": "Valmora marathon record falls as shoe technology debate intensifies",
+  "subheadline": "Nadia Keller ran 2:16:41 to take almost a minute off the course record, prompting fresh calls for stricter equipment rules.",
+  "description": "Nadia Keller set a new Valmora Marathon course record of 2:16:41, reigniting debate over whether advanced running-shoe technology is distorting results.",
+  "category": "sports",
+  "author": "d-walsh",
+  "datePublished": "2026-10-25T15:40:00+01:00",
+  "dateModified": "2026-10-26T09:00:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/marathon-runners.jpg",
+    "alt": "A crowd of marathon runners filling a wide city street",
+    "caption": "Marathon runners on a city street (file photo). More than 28,000 runners completed Sunday's Valmora race.",
+    "credit": "Photo: Robert Lamb / Wikimedia Commons (CC BY-SA 2.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["athletics", "marathon", "Valmora", "equipment rules"],
+  "related": ["2026-11-meridian-city-clinch-league-title", "2026-11-coastal-cities-flood-defence-fund"],
+  "featured": false,
+  "breaking": false,
+  "trending": false,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Valmora marathon record falls amid shoe technology debate",
+    "description": "Nadia Keller's 2:16:41 course record at the Valmora Marathon renews calls for stricter running-shoe equipment rules."
+  },
+  "body": [
+    "<strong>VALMORA</strong> — Nadia Keller broke the Valmora Marathon course record by 58 seconds on Sunday, finishing in 2:16:41 on a cool, windless morning that organisers described as ideal.",
+    "The performance was immediately overshadowed by questions about her footwear, a prototype model with a stack height reportedly at the upper limit of current rules.",
+    { "type": "heading", "text": "The equipment question" },
+    "Current regulations cap sole thickness and limit shoes to a single rigid plate, but critics argue manufacturers are finding ways around the spirit of the rules with new foam compounds. The sport's governing body said Keller's shoes were on the approved list.",
+    { "type": "quote", "text": "I trained for this for two years. Nobody asks a cyclist to ride a bike from 1990.", "cite": "Nadia Keller, post-race press conference" },
+    "Rival athletes were split. Some called for a return to simpler footwear in record-eligible races; others said the debate distracted from a remarkable run on a difficult course.",
+    "The men's race was won in 2:04:12, well outside the course record. More than 28,000 runners completed the event."
+  ]
+}

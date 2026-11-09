@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "world",
+    "name": "World",
+    "title": "World News",
+    "description": "International news and global affairs: reporting from across the regions that shape our world.",
+    "color": "#1d4ed8"
+  },
+  {
+    "slug": "politics",
+    "name": "Politics",
+    "title": "Politics",
+    "description": "Government, elections, policy and power: coverage of the decisions that affect everyday life.",
+    "color": "#7c3aed"
+  },
+  {
+    "slug": "business",
+    "name": "Business",
+    "title": "Business and Economy",
+    "description": "Markets, companies, trade and the economy explained clearly.",
+    "color": "#047857"
+  },
+  {
+    "slug": "technology",
+    "name": "Technology",
+    "title": "Technology",
+    "description": "Artificial intelligence, gadgets, cybersecurity and the digital industry.",
+    "color": "#0f766e"
+  },
+  {
+    "slug": "sports",
+    "name": "Sports",
+    "title": "Sports and Football",
+    "description": "Football, athletics, motorsport and more: results, analysis and the stories behind the games.",
+    "color": "#c2410c"
+  },
+  {
+    "slug": "science",
+    "name": "Science",
+    "title": "Science and Environment",
+    "description": "Discoveries, climate, health research and the natural world.",
+    "color": "#0369a1"
+  },
+  {
+    "slug": "opinion",
+    "name": "Opinion",
+    "title": "Opinion and Analysis",
+    "description": "Columns, commentary and in-depth analysis from our writers and guest contributors.",
+    "color": "#b45309"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "id": "2026-10-urban-tree-cover-heat-study",
+  "slug": "study-links-urban-tree-cover-to-fewer-summer-heat-deaths",
+  "headline": "Study links urban tree cover to fewer summer heat deaths",
+  "subheadline": "Researchers at the Valmora Institute compared 90 city districts over a decade of heatwaves.",
+  "description": "A ten-year study of 90 city districts by the Valmora Institute finds that neighbourhoods with more than 30% tree cover recorded significantly fewer deaths during heatwaves.",
+  "category": "science",
+  "author": "s-haddad",
+  "datePublished": "2026-10-31T06:00:00+01:00",
+  "dateModified": "2026-10-31T06:00:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/city-trees.jpg",
+    "alt": "A tree-lined avenue with a canopy of green leaves shading the path",
+    "caption": "A shaded tree-lined avenue (file photo). Shaded streets were up to 4°C cooler than treeless districts during the 2025 heatwave, the study found.",
+    "credit": "Photo: Johann Jaritz / Wikimedia Commons (CC BY-SA 4.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["climate", "public health", "cities", "research"],
+  "related": ["2026-10-deep-sea-coral-reef-isla-verde", "2026-11-northwind-energy-record-quarter", "2026-11-analysis-valmora-summit-small-island-states"],
+  "featured": false,
+  "breaking": false,
+  "trending": false,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Urban tree cover linked to fewer heatwave deaths, study finds",
+    "description": "Valmora Institute study of 90 city districts over ten years links tree cover above 30% with significantly fewer heatwave deaths."
+  },
+  "body": [
+    "Neighbourhoods with more than 30% tree canopy recorded markedly fewer deaths during heatwaves than comparable districts with little greenery, according to a decade-long study published on Friday by the Valmora Institute.",
+    "The researchers analysed mortality, temperature and satellite canopy data from 90 districts across six cities between 2015 and 2025, adjusting for income, age and building type.",
+    { "type": "heading", "text": "Key findings" },
+    { "type": "list", "items": [
+      "Surface temperatures in well-shaded districts were on average 3–4°C lower on the hottest days.",
+      "Excess mortality during heatwaves was roughly a third lower in high-canopy districts.",
+      "The protective effect was strongest among residents over 75 and in districts with older housing stock."
+    ] },
+    { "type": "quote", "text": "Trees are infrastructure. They just happen to be alive.", "cite": "Study co-author" },
+    "The authors caution that the study shows a strong association rather than definitive proof of cause, and that trees take decades to mature. They recommend cities combine planting with shorter-term measures such as cool roofs and public cooling centres.",
+    "Several city councils have already cited the findings in budget debates. The study's full dataset has been released openly to allow other researchers to test the results."
+  ]
+}

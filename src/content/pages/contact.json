@@ -1,0 +1,20 @@
+{
+  "slug": "contact",
+  "title": "Contact Us",
+  "seoTitle": "Contact Us",
+  "description": "Contact The Daily Meridian newsroom, submit a correction, or get in touch about advertising and partnerships.",
+  "lastUpdated": "2026-11-08",
+  "body": [
+    { "type": "notice", "html": "<strong>Demonstration website.</strong> Replace the contact details below with your organisation's real address and email before launch. This site has no backend, so contact is by email." },
+    { "type": "heading", "text": "Newsroom" },
+    "For news tips, story ideas and press enquiries: <a href=\"mailto:newsroom@example.com\">newsroom@example.com</a>",
+    { "type": "heading", "text": "Corrections" },
+    "If you believe we have published an error, please email <a href=\"mailto:corrections@example.com\">corrections@example.com</a> with the article URL and a description of the issue. See our <a href=\"/corrections-policy.html\">Corrections Policy</a>.",
+    { "type": "heading", "text": "Advertising and partnerships" },
+    "For advertising enquiries: <a href=\"mailto:advertising@example.com\">advertising@example.com</a>",
+    { "type": "heading", "text": "Privacy requests" },
+    "To exercise your data protection rights, email <a href=\"mailto:privacy@example.com\">privacy@example.com</a>. See our <a href=\"/privacy-policy.html\">Privacy Policy</a>.",
+    { "type": "heading", "text": "Postal address" },
+    "The Daily Meridian Media Ltd<br>123 Fleet Street<br>London, United Kingdom"
+  ]
+}

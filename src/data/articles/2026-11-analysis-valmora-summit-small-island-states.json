@@ -1,0 +1,44 @@
+{
+  "id": "2026-11-analysis-valmora-summit-small-island-states",
+  "slug": "analysis-what-the-valmora-summit-means-for-small-island-states",
+  "headline": "Analysis: What the Valmora summit means for small island states",
+  "subheadline": "The flood-defence fund is a real achievement, but the contribution formula tells a more complicated story.",
+  "description": "Analysis: The Valmora flood-defence agreement is a genuine step forward, but its contribution formula and ratification timetable leave small island communities exposed.",
+  "category": "opinion",
+  "author": "a-rossi",
+  "datePublished": "2026-11-08T10:30:00+01:00",
+  "dateModified": "2026-11-08T10:30:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/island-coast.jpg",
+    "alt": "Aerial view of a small low-lying island with sandy beaches surrounded by shallow turquoise sea",
+    "caption": "A small low-lying island seen from the air (file photo). Islands such as Isla Verde face the highest exposure but have the smallest budgets.",
+    "credit": "Photo: Tom Corser / Wikimedia Commons (CC BY-SA 3.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["analysis", "climate", "Valmora summit", "islands"],
+  "related": ["2026-11-coastal-cities-flood-defence-fund", "2026-11-isla-verde-ferry-link-restored", "2026-10-urban-tree-cover-heat-study"],
+  "featured": false,
+  "breaking": false,
+  "trending": true,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Analysis: What the Valmora summit means for small island states",
+    "description": "The Valmora flood-defence deal is a real step forward, but its funding formula and timetable leave small islands exposed. Analysis."
+  },
+  "body": [
+    "It would be churlish not to call Saturday's agreement in Valmora a success. Forty-two cities, several of them political rivals, signed up to a €40bn fund with published criteria and annual reporting. Six months ago that looked unlikely.",
+    "But read the annex on contributions and a less comfortable picture emerges.",
+    { "type": "heading", "text": "Who pays, who waits" },
+    "The sliding scale agreed overnight protects smaller cities from unaffordable payments. It also means the fund will fill slowly in its first three years, precisely when the smallest and most exposed members need projects to start. The hardship clause allows deferral after a flood; it does nothing to prevent one.",
+    "Isla Verde, which will host the next summit, is a case in point. Its harbour reopened only last week after a five-year rebuild. Under the current timetable it is unlikely to receive fund money before 2029.",
+    { "type": "heading", "text": "The ratification risk" },
+    "Every member city must ratify through its own council by March 2027. Councils change. Budgets tighten. At least five member cities face elections before the deadline. The alliance has no mechanism to proceed if a major contributor drops out.",
+    { "type": "quote", "text": "An agreement that depends on 42 separate votes is 42 opportunities to fail." },
+    { "type": "heading", "text": "Reasons for optimism" },
+    "None of this makes the deal worthless. The early-warning network begins immediately and costs little. The transparency provisions are stronger than in comparable agreements. And the research on cheaper, nature-based defences presented in Valmora suggests money can go further than engineers assumed a decade ago.",
+    "The summit answered the question of whether coastal cities would act together. The next two years will answer the harder one: whether the smallest among them can afford to wait.",
+    { "type": "paragraph", "html": "<em>This is a demonstration analysis piece. Alessia Rossi is a fictional author profile used for sample content.</em>" }
+  ]
+}

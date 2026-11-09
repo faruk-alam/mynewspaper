@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-aurelia-digital-services-transparency-bill",
+  "slug": "aurelia-parliament-passes-digital-services-transparency-bill",
+  "headline": "Aurelia's parliament passes Digital Services Transparency Bill after marathon debate",
+  "subheadline": "The law will require large platforms to publish how their recommendation systems rank news and political content.",
+  "description": "After a 14-hour debate, Aurelia's parliament has passed the Digital Services Transparency Bill, requiring large online platforms to disclose how recommendation systems rank news and political content.",
+  "category": "politics",
+  "author": "l-moreau",
+  "datePublished": "2026-11-07T22:45:00+01:00",
+  "dateModified": "2026-11-08T08:00:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/parliament-chamber.jpg",
+    "alt": "Interior of a parliamentary debating chamber with curved rows of wooden benches and seats",
+    "caption": "A parliamentary debating chamber (file photo). The final vote came shortly after midnight.",
+    "credit": "Photo: David Kernan / Wikimedia Commons (CC BY 4.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["Aurelia", "legislation", "technology policy", "platforms"],
+  "related": ["2026-11-regulator-fines-app-developer-location-data", "2026-10-lumen-3-open-source-model-released", "2026-10-opposition-housing-plan-regional-elections"],
+  "featured": true,
+  "breaking": true,
+  "trending": true,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Aurelia passes Digital Services Transparency Bill after 14-hour debate",
+    "description": "Aurelia's parliament passes a law requiring large platforms to disclose how recommendation systems rank news and political content."
+  },
+  "body": [
+    "<strong>AURELIA CITY</strong> — Lawmakers voted 212 to 171 shortly after midnight to pass the Digital Services Transparency Bill, ending a 14-hour sitting marked by procedural objections and a last-minute attempt to refer the text back to committee.",
+    "The law requires any platform with more than five million monthly users in Aurelia to publish an annual plain-language explanation of how its recommendation systems rank news and political content, and to offer users a chronological feed option.",
+    { "type": "heading", "text": "Key provisions" },
+    { "type": "list", "items": [
+      "Annual transparency reports on ranking criteria, reviewed by an independent regulator.",
+      "A mandatory non-personalised feed option for all users.",
+      "Access for accredited researchers to aggregated platform data.",
+      "Fines of up to 4% of national turnover for repeated non-compliance."
+    ] },
+    "Supporters argued that voters have a right to understand why they see what they see during election campaigns. Opponents said the bill was rushed and would push smaller services out of the market because of compliance costs.",
+    { "type": "quote", "text": "Transparency is not censorship. We are not telling platforms what to show. We are asking them to explain how they decide.", "cite": "Bill sponsor, during the debate" },
+    { "type": "heading", "text": "What industry says" },
+    "A trade body representing platform operators said it would 'study the final text carefully' and did not rule out a legal challenge. Smaller Aurelian start-ups welcomed an amendment raising the user threshold from one million to five million.",
+    "The regulator must publish implementation guidance within 180 days. The first transparency reports are expected in early 2028."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "_comment": "TEMPLATE – files starting with an underscore are ignored by the build. Copy this file to a new name (e.g. 2026-12-my-story.json), remove this _comment line, fill in every field, set status to 'published' and run: npm run build",
+
+  "id": "2026-12-unique-article-id",
+  "slug": "human-readable-url-slug-lowercase-with-hyphens",
+  "headline": "Headline shown on the page and in listings",
+  "subheadline": "Optional one-sentence standfirst shown under the headline.",
+  "description": "Short summary (120–160 characters) used in listings, RSS and as fallback meta description.",
+  "category": "world",
+  "author": "editorial-team",
+  "datePublished": "2026-12-01T09:00:00+01:00",
+  "dateModified": "2026-12-01T09:00:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/my-image.jpg",
+    "alt": "Describe what is visible in the image for screen readers and SEO",
+    "caption": "Caption shown under the image.",
+    "credit": "Photo: Photographer Name / Source (Licence)"
+  },
+  "tags": ["topic one", "topic two"],
+  "related": ["id-of-another-article", "id-of-a-second-article"],
+  "featured": false,
+  "breaking": false,
+  "trending": false,
+  "status": "draft",
+  "demo": false,
+  "seo": {
+    "title": "Optional SEO title (max ~60 chars). Defaults to headline.",
+    "description": "Optional meta description (max ~155 chars). Defaults to description.",
+    "canonical": ""
+  },
+  "body": [
+    "<strong>DATELINE</strong> — Plain strings become paragraphs. Inline HTML such as <a href=\"/about.html\">links</a>, <em>emphasis</em> and <strong>bold</strong> is allowed.",
+    { "type": "heading", "text": "A subheading (rendered as h2)" },
+    "Another paragraph.",
+    { "type": "heading", "text": "A smaller subheading", "level": 3 },
+    { "type": "quote", "text": "A pull quote or direct quotation.", "cite": "Who said it" },
+    { "type": "list", "items": ["First bullet point", "Second bullet point"] },
+    { "type": "list", "ordered": true, "items": ["First step", "Second step"] },
+    { "type": "image", "src": "/assets/images/articles/inline-photo.jpg", "alt": "Describe the inline image", "caption": "Inline image caption.", "credit": "Photo: Name" },
+    { "type": "notice", "html": "A highlighted editor's note or correction box." },
+    { "type": "paragraph", "html": "<em>A closing italic note, e.g. a correction or disclosure.</em>" }
+  ]
+}

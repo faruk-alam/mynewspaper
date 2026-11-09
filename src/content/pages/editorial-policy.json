@@ -1,0 +1,39 @@
+{
+  "slug": "editorial-policy",
+  "title": "Editorial Policy",
+  "seoTitle": "Editorial Policy",
+  "description": "The editorial standards that guide reporting at The Daily Meridian: accuracy, independence, fairness and transparency.",
+  "lastUpdated": "2026-11-08",
+  "body": [
+    { "type": "heading", "text": "Our commitment" },
+    "The Daily Meridian exists to inform. Our reporting is guided by four principles: accuracy, independence, fairness and transparency.",
+    { "type": "heading", "text": "Accuracy" },
+    { "type": "list", "items": [
+      "We verify facts before publication and attribute information to its source.",
+      "We distinguish clearly between what we know, what we have been told and what we believe to be likely.",
+      "Headlines must be supported by the article body and must not exaggerate."
+    ] },
+    { "type": "heading", "text": "Independence" },
+    { "type": "list", "items": [
+      "Editorial decisions are made by editors, never by advertisers, sponsors or owners.",
+      "Advertising is clearly labelled and visually separated from editorial content.",
+      "Journalists declare any conflict of interest to their editor."
+    ] },
+    { "type": "heading", "text": "Fairness" },
+    { "type": "list", "items": [
+      "We seek comment from people or organisations that are the subject of critical reporting.",
+      "We do not use anonymous sources unless there is a strong public interest and the editor knows the source's identity.",
+      "Opinion and analysis are clearly labelled and kept separate from news reporting."
+    ] },
+    { "type": "heading", "text": "Transparency" },
+    { "type": "list", "items": [
+      "Every article shows its author, publication date and the date of the last substantive update.",
+      "Corrections are published openly. See our <a href=\"/corrections-policy.html\">Corrections Policy</a>.",
+      "Demonstration or sample content is clearly labelled as such."
+    ] },
+    { "type": "heading", "text": "Use of images" },
+    "We use images we own, have licensed, or that are available under licences that permit our use. Image credits are shown in captions. Images are not manipulated in ways that mislead.",
+    { "type": "heading", "text": "Use of AI tools" },
+    "Any use of automated tools in producing content is subject to human editorial review. We do not publish AI-generated news reporting as if it were produced by a journalist."
+  ]
+}

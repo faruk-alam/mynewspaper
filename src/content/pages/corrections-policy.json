@@ -1,0 +1,23 @@
+{
+  "slug": "corrections-policy",
+  "title": "Corrections Policy",
+  "seoTitle": "Corrections Policy",
+  "description": "How The Daily Meridian handles errors, corrections and clarifications.",
+  "lastUpdated": "2026-11-08",
+  "body": [
+    "We aim to get things right. When we do not, we correct the record promptly and transparently.",
+    { "type": "heading", "text": "How to report an error" },
+    "Email <a href=\"mailto:corrections@example.com\">corrections@example.com</a> with the article URL, the passage you believe is wrong and, where possible, a source supporting the correction. We aim to respond within two working days.",
+    { "type": "heading", "text": "How we correct" },
+    { "type": "list", "items": [
+      "<strong>Factual errors</strong> are corrected in the article, and a note at the end of the article explains what was changed and when.",
+      "<strong>Clarifications</strong> are added where the original wording was accurate but could be misread.",
+      "<strong>Minor typographical errors</strong> that do not change meaning are fixed without a note.",
+      "The 'last updated' date on the article reflects the correction."
+    ] },
+    { "type": "heading", "text": "Headlines and social media" },
+    "If a correction affects a headline or a social media post, we update the headline and publish a follow-up post where appropriate.",
+    { "type": "heading", "text": "Removal of articles" },
+    "We do not remove published articles except in exceptional circumstances, such as a legal requirement or a serious risk to safety. Article URLs are permanent."
+  ]
+}

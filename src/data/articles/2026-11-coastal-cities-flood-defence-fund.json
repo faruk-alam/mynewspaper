@@ -1,0 +1,50 @@
+{
+  "id": "2026-11-coastal-cities-flood-defence-fund",
+  "slug": "coastal-cities-alliance-agrees-flood-defence-fund-valmora-summit",
+  "headline": "Coastal Cities Alliance agrees €40bn flood-defence fund at Valmora summit",
+  "subheadline": "Forty-two member cities commit to a decade-long programme of sea walls, wetland restoration and early-warning systems.",
+  "description": "Delegates from 42 coastal cities have agreed a €40bn flood-defence fund at the Valmora summit, committing to a ten-year programme of sea walls, wetland restoration and early-warning systems.",
+  "category": "world",
+  "author": "a-rossi",
+  "datePublished": "2026-11-08T07:30:00+01:00",
+  "dateModified": "2026-11-08T09:10:00+01:00",
+  "image": {
+    "src": "/assets/images/articles/coastal-summit.jpg",
+    "alt": "A large wave crashes over a stone sea wall beside a seafront promenade, with terraced houses behind",
+    "caption": "Waves break over a seafront sea wall (file photo). Member cities say rising sea levels have made existing defences inadequate.",
+    "credit": "Photo: Geof Sheppard / Wikimedia Commons (CC BY-SA 4.0)",
+    "width": 1200,
+    "height": 675
+  },
+  "tags": ["climate", "diplomacy", "infrastructure", "Valmora summit"],
+  "related": [
+    "2026-11-analysis-valmora-summit-small-island-states",
+    "2026-10-deep-sea-coral-reef-isla-verde",
+    "2026-11-isla-verde-ferry-link-restored"
+  ],
+  "featured": true,
+  "breaking": true,
+  "trending": true,
+  "status": "published",
+  "demo": true,
+  "seo": {
+    "title": "Coastal Cities Alliance agrees €40bn flood-defence fund at Valmora summit",
+    "description": "42 coastal cities agree a €40bn, ten-year flood-defence fund at the Valmora summit covering sea walls, wetlands and early-warning systems."
+  },
+  "body": [
+    "<strong>VALMORA</strong> — Delegates from 42 coastal cities signed an agreement on Saturday to create a €40bn flood-defence fund, ending three days of negotiations that at one point appeared close to collapse.",
+    "The fund, which will be administered by the Coastal Cities Alliance secretariat, will finance sea walls, tidal barriers and the restoration of coastal wetlands over the next ten years. Member cities will contribute according to a formula based on population and exposure to sea-level rise.",
+    { "type": "heading", "text": "A deal that nearly fell apart" },
+    "Talks stalled on Friday evening when a group of smaller cities objected to a contribution formula they said favoured wealthier ports. A compromise brokered overnight introduced a sliding scale and a hardship clause allowing cities to defer payments after major flooding events.",
+    { "type": "quote", "text": "This is not charity. Every city in this room has stood in floodwater in the last five years. We either build together or we rebuild alone, again and again.", "cite": "Summit chair, closing remarks" },
+    "The agreement also establishes a shared early-warning network that will pool tide-gauge and weather data from all member cities, with alerts distributed through a common open-data platform.",
+    { "type": "heading", "text": "What happens next" },
+    { "type": "list", "items": [
+      "Member cities must ratify the agreement through their own councils by March 2027.",
+      "A technical board will publish funding criteria and the first project shortlist within six months.",
+      "Annual progress reports will be published publicly, a transparency measure demanded by civil-society observers."
+    ] },
+    "Environmental groups broadly welcomed the deal but warned that engineering solutions alone would not be enough. Several urged the alliance to allocate at least a third of the fund to nature-based defences such as mangroves, dunes and salt marshes.",
+    "The next summit is scheduled for 2027 in Isla Verde, which recently restored its ferry link to the mainland after a five-year closure."
+  ]
+}
