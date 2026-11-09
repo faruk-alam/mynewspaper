@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Daily Meridian – Opinion and Analysis</title>
+    <link>https://faruk-alam.github.io/mynewspaper/news/opinion/</link>
+    <atom:link href="https://faruk-alam.github.io/mynewspaper/news/opinion/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>Columns, commentary and in-depth analysis from our writers and guest contributors.</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Nov 2026 09:30:00 GMT</lastBuildDate>
+    <image>
+      <url>https://faruk-alam.github.io/mynewspaper/assets/images/brand/logo.svg</url>
+      <title>The Daily Meridian</title>
+      <link>https://faruk-alam.github.io/mynewspaper</link>
+    </image>
+    <item>
+      <title>Analysis: What the Valmora summit means for small island states</title>
+      <link>https://faruk-alam.github.io/mynewspaper/news/opinion/analysis-what-the-valmora-summit-means-for-small-island-states.html</link>
+      <guid isPermaLink="true">https://faruk-alam.github.io/mynewspaper/news/opinion/analysis-what-the-valmora-summit-means-for-small-island-states.html</guid>
+      <pubDate>Sun, 08 Nov 2026 09:30:00 GMT</pubDate>
+      <dc:creator>Alessia Rossi</dc:creator>
+      <category>Opinion</category>
+      <description>The Valmora flood-defence deal is a real step forward, but its funding formula and timetable leave small islands exposed. Analysis.</description>
+      <content:encoded><![CDATA[<p><img src="https://faruk-alam.github.io/mynewspaper/assets/images/articles/island-coast.jpg" alt="Aerial view of a small low-lying island with sandy beaches surrounded by shallow turquoise sea"></p><p>It would be churlish not to call Saturday's agreement in Valmora a success. Forty-two cities, several of them political rivals, signed up to a €40bn fund with published criteria and annual reporting. Six months ago that looked unlikely.</p>
+<p>But read the annex on contributions and a less comfortable picture emerges.</p>
+<h2>Who pays, who waits</h2>
+<p>The sliding scale agreed overnight protects smaller cities from unaffordable payments. It also means the fund will fill slowly in its first three years, precisely when the smallest and most exposed members need projects to start. The hardship clause allows deferral after a flood; it does nothing to prevent one.</p>
+<p>Isla Verde, which will host the next summit, is a case in point. Its harbour reopened only last week after a five-year rebuild. Under the current timetable it is unlikely to receive fund money before 2029.</p>
+<h2>The ratification risk</h2>
+<p>Every member city must ratify through its own council by March 2027. Councils change. Budgets tighten. At least five member cities face elections before the deadline. The alliance has no mechanism to proceed if a major contributor drops out.</p>
+<blockquote><p>An agreement that depends on 42 separate votes is 42 opportunities to fail.</p></blockquote>
+<h2>Reasons for optimism</h2>
+<p>None of this makes the deal worthless. The early-warning network begins immediately and costs little. The transparency provisions are stronger than in comparable agreements. And the research on cheaper, nature-based defences presented in Valmora suggests money can go further than engineers assumed a decade ago.</p>
+<p>The summit answered the question of whether coastal cities would act together. The next two years will answer the harder one: whether the smallest among them can afford to wait.</p>
+<p><em>This is a demonstration analysis piece. Alessia Rossi is a fictional author profile used for sample content.</em></p>]]></content:encoded>
+      <enclosure url="https://faruk-alam.github.io/mynewspaper/assets/images/articles/island-coast.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Why the four-day week debate is really about trust</title>
+      <link>https://faruk-alam.github.io/mynewspaper/news/opinion/why-the-four-day-week-debate-is-really-about-trust.html</link>
+      <guid isPermaLink="true">https://faruk-alam.github.io/mynewspaper/news/opinion/why-the-four-day-week-debate-is-really-about-trust.html</guid>
+      <pubDate>Wed, 04 Nov 2026 06:00:00 GMT</pubDate>
+      <dc:creator>Elena Novak</dc:creator>
+      <category>Opinion</category>
+      <description>Column: strip away the productivity statistics and the four-day week debate is about whether managers believe their staff.</description>
+      <content:encoded><![CDATA[<p><img src="https://faruk-alam.github.io/mynewspaper/assets/images/articles/office-desk.jpg" alt="An empty desk with a laptop, notebook and lamp after the working day"></p><p>Every few months another trial of the four-day week reports its results, and every few months the same two camps restate the same two positions. Supporters cite lower burnout and stable output; sceptics cite the small sample sizes and the self-selection of companies that volunteer for such experiments.</p>
+<p>Both are partly right, and neither is really talking about hours.</p>
+<h2>The hidden question</h2>
+<p>Strip away the statistics and the argument is about surveillance. A manager who believes work can be measured by presence will never be persuaded by a study. A manager who measures work by outcomes already knows that the fifth day is often the least productive.</p>
+<blockquote><p>The four-day week does not create trust. It reveals whether it was ever there.</p></blockquote>
+<p>This is why the debate is so stubborn. It is not that the evidence is weak; it is that the evidence answers a question most organisations are not actually asking.</p>
+<h2>What would change the conversation</h2>
+<p>Instead of asking whether a shorter week 'works', we might ask what it would take for a particular team to be judged on what it delivers. That conversation is harder, less quotable and far more useful. It is also the one a fan-owned football club in Meridian City apparently had with its players three seasons ago. Readers may have noticed how that turned out.</p>
+<p><em>Elena Novak is a demonstration columnist for The Daily Meridian. Opinion pieces reflect the views of their authors and not necessarily those of the publication.</em></p>]]></content:encoded>
+      <enclosure url="https://faruk-alam.github.io/mynewspaper/assets/images/articles/office-desk.jpg" type="image/jpeg" length="0"/>
+    </item>
+  </channel>
+</rss>

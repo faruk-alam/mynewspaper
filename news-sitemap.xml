@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://faruk-alam.github.io/mynewspaper/news/opinion/analysis-what-the-valmora-summit-means-for-small-island-states.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Meridian</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-08T09:30:00.000Z</news:publication_date>
+      <news:title>Analysis: What the Valmora summit means for small island states</news:title>
+      <news:keywords>analysis, climate, Valmora summit, islands</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://faruk-alam.github.io/mynewspaper/news/world/coastal-cities-alliance-agrees-flood-defence-fund-valmora-summit.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Meridian</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-08T06:30:00.000Z</news:publication_date>
+      <news:title>Coastal Cities Alliance agrees €40bn flood-defence fund at Valmora summit</news:title>
+      <news:keywords>climate, diplomacy, infrastructure, Valmora summit</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://faruk-alam.github.io/mynewspaper/news/politics/aurelia-parliament-passes-digital-services-transparency-bill.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Meridian</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-07T21:45:00.000Z</news:publication_date>
+      <news:title>Aurelia&#39;s parliament passes Digital Services Transparency Bill after marathon debate</news:title>
+      <news:keywords>Aurelia, legislation, technology policy, platforms</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://faruk-alam.github.io/mynewspaper/news/sports/meridian-city-clinch-league-title-with-last-minute-winner.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Meridian</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-07T18:55:00.000Z</news:publication_date>
+      <news:title>Meridian City clinch league title with last-minute winner</news:title>
+      <news:keywords>football, Meridian City, league title</news:keywords>
+    </news:news>
+  </url>
+</urlset>

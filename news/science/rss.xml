@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Daily Meridian – Science and Environment</title>
+    <link>https://faruk-alam.github.io/mynewspaper/news/science/</link>
+    <atom:link href="https://faruk-alam.github.io/mynewspaper/news/science/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>Discoveries, climate, health research and the natural world.</description>
+    <language>en</language>
+    <lastBuildDate>Sat, 31 Oct 2026 05:00:00 GMT</lastBuildDate>
+    <image>
+      <url>https://faruk-alam.github.io/mynewspaper/assets/images/brand/logo.svg</url>
+      <title>The Daily Meridian</title>
+      <link>https://faruk-alam.github.io/mynewspaper</link>
+    </image>
+    <item>
+      <title>Study links urban tree cover to fewer summer heat deaths</title>
+      <link>https://faruk-alam.github.io/mynewspaper/news/science/study-links-urban-tree-cover-to-fewer-summer-heat-deaths.html</link>
+      <guid isPermaLink="true">https://faruk-alam.github.io/mynewspaper/news/science/study-links-urban-tree-cover-to-fewer-summer-heat-deaths.html</guid>
+      <pubDate>Sat, 31 Oct 2026 05:00:00 GMT</pubDate>
+      <dc:creator>Sara Haddad</dc:creator>
+      <category>Science</category>
+      <description>Valmora Institute study of 90 city districts over ten years links tree cover above 30% with significantly fewer heatwave deaths.</description>
+      <content:encoded><![CDATA[<p><img src="https://faruk-alam.github.io/mynewspaper/assets/images/articles/city-trees.jpg" alt="A tree-lined avenue with a canopy of green leaves shading the path"></p><p>Neighbourhoods with more than 30% tree canopy recorded markedly fewer deaths during heatwaves than comparable districts with little greenery, according to a decade-long study published on Friday by the Valmora Institute.</p>
+<p>The researchers analysed mortality, temperature and satellite canopy data from 90 districts across six cities between 2015 and 2025, adjusting for income, age and building type.</p>
+<h2>Key findings</h2>
+<ul><li>Surface temperatures in well-shaded districts were on average 3–4°C lower on the hottest days.</li><li>Excess mortality during heatwaves was roughly a third lower in high-canopy districts.</li><li>The protective effect was strongest among residents over 75 and in districts with older housing stock.</li></ul>
+<blockquote><p>Trees are infrastructure. They just happen to be alive.</p><footer class="not-italic text-sm text-ink-500">— Study co-author</footer></blockquote>
+<p>The authors caution that the study shows a strong association rather than definitive proof of cause, and that trees take decades to mature. They recommend cities combine planting with shorter-term measures such as cool roofs and public cooling centres.</p>
+<p>Several city councils have already cited the findings in budget debates. The study's full dataset has been released openly to allow other researchers to test the results.</p>]]></content:encoded>
+      <enclosure url="https://faruk-alam.github.io/mynewspaper/assets/images/articles/city-trees.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Researchers map deep-sea coral reef discovered off Isla Verde</title>
+      <link>https://faruk-alam.github.io/mynewspaper/news/science/researchers-map-deep-sea-coral-reef-discovered-off-isla-verde.html</link>
+      <guid isPermaLink="true">https://faruk-alam.github.io/mynewspaper/news/science/researchers-map-deep-sea-coral-reef-discovered-off-isla-verde.html</guid>
+      <pubDate>Mon, 26 Oct 2026 09:30:00 GMT</pubDate>
+      <dc:creator>Sara Haddad</dc:creator>
+      <category>Science</category>
+      <description>Scientists map an 11km cold-water coral reef off Isla Verde at depths up to 600m, finding it largely undamaged by fishing.</description>
+      <content:encoded><![CDATA[<p><img src="https://faruk-alam.github.io/mynewspaper/assets/images/articles/underwater-reef.jpg" alt="Colourful corals and small fish on a shallow tropical reef in clear water"></p><p>A research team has published the first detailed map of a cold-water coral reef discovered last year off the north coast of Isla Verde, describing it as one of the most intact structures of its kind yet documented.</p>
+<p>Using an autonomous underwater vehicle over three weeks, the team surveyed 11 kilometres of reef at depths between 350 and 600 metres. Unlike tropical reefs, cold-water corals do not rely on sunlight and grow only a few millimetres a year.</p>
+<h2>Why it survived</h2>
+<p>The researchers believe the reef escaped damage from bottom trawling because of strong currents and rocky terrain that made the area unattractive to fishing fleets. They recorded 140 species, including several fish of commercial importance in their juvenile stages.</p>
+<blockquote><p>Reefs like this are nurseries. Protect the nursery and you protect the fishery.</p><footer class="not-italic text-sm text-ink-500">— Lead author of the survey report</footer></blockquote>
+<h2>Calls for protection</h2>
+<p>Island authorities have asked the national government to designate the area a marine protected zone. Local fishing cooperatives have expressed cautious support, provided traditional line fishing is allowed to continue.</p>
+<p>The team will return next spring to install sensors measuring temperature and acidity, which threaten cold-water corals as the ocean absorbs more carbon dioxide.</p>]]></content:encoded>
+      <enclosure url="https://faruk-alam.github.io/mynewspaper/assets/images/articles/underwater-reef.jpg" type="image/jpeg" length="0"/>
+    </item>
+  </channel>
+</rss>

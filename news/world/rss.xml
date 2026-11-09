@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Daily Meridian – World News</title>
+    <link>https://faruk-alam.github.io/mynewspaper/news/world/</link>
+    <atom:link href="https://faruk-alam.github.io/mynewspaper/news/world/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>International news and global affairs: reporting from across the regions that shape our world.</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Nov 2026 08:10:00 GMT</lastBuildDate>
+    <image>
+      <url>https://faruk-alam.github.io/mynewspaper/assets/images/brand/logo.svg</url>
+      <title>The Daily Meridian</title>
+      <link>https://faruk-alam.github.io/mynewspaper</link>
+    </image>
+    <item>
+      <title>Coastal Cities Alliance agrees €40bn flood-defence fund at Valmora summit</title>
+      <link>https://faruk-alam.github.io/mynewspaper/news/world/coastal-cities-alliance-agrees-flood-defence-fund-valmora-summit.html</link>
+      <guid isPermaLink="true">https://faruk-alam.github.io/mynewspaper/news/world/coastal-cities-alliance-agrees-flood-defence-fund-valmora-summit.html</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 GMT</pubDate>
+      <dc:creator>Alessia Rossi</dc:creator>
+      <category>World</category>
+      <description>42 coastal cities agree a €40bn, ten-year flood-defence fund at the Valmora summit covering sea walls, wetlands and early-warning systems.</description>
+      <content:encoded><![CDATA[<p><img src="https://faruk-alam.github.io/mynewspaper/assets/images/articles/coastal-summit.jpg" alt="A large wave crashes over a stone sea wall beside a seafront promenade, with terraced houses behind"></p><p><strong>VALMORA</strong> — Delegates from 42 coastal cities signed an agreement on Saturday to create a €40bn flood-defence fund, ending three days of negotiations that at one point appeared close to collapse.</p>
+<p>The fund, which will be administered by the Coastal Cities Alliance secretariat, will finance sea walls, tidal barriers and the restoration of coastal wetlands over the next ten years. Member cities will contribute according to a formula based on population and exposure to sea-level rise.</p>
+<h2>A deal that nearly fell apart</h2>
+<p>Talks stalled on Friday evening when a group of smaller cities objected to a contribution formula they said favoured wealthier ports. A compromise brokered overnight introduced a sliding scale and a hardship clause allowing cities to defer payments after major flooding events.</p>
+<blockquote><p>This is not charity. Every city in this room has stood in floodwater in the last five years. We either build together or we rebuild alone, again and again.</p><footer class="not-italic text-sm text-ink-500">— Summit chair, closing remarks</footer></blockquote>
+<p>The agreement also establishes a shared early-warning network that will pool tide-gauge and weather data from all member cities, with alerts distributed through a common open-data platform.</p>
+<h2>What happens next</h2>
+<ul><li>Member cities must ratify the agreement through their own councils by March 2027.</li><li>A technical board will publish funding criteria and the first project shortlist within six months.</li><li>Annual progress reports will be published publicly, a transparency measure demanded by civil-society observers.</li></ul>
+<p>Environmental groups broadly welcomed the deal but warned that engineering solutions alone would not be enough. Several urged the alliance to allocate at least a third of the fund to nature-based defences such as mangroves, dunes and salt marshes.</p>
+<p>The next summit is scheduled for 2027 in Isla Verde, which recently restored its ferry link to the mainland after a five-year closure.</p>]]></content:encoded>
+      <enclosure url="https://faruk-alam.github.io/mynewspaper/assets/images/articles/coastal-summit.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Isla Verde ferry link restored after five-year closure</title>
+      <link>https://faruk-alam.github.io/mynewspaper/news/world/isla-verde-ferry-link-restored-after-five-year-closure.html</link>
+      <guid isPermaLink="true">https://faruk-alam.github.io/mynewspaper/news/world/isla-verde-ferry-link-restored-after-five-year-closure.html</guid>
+      <pubDate>Fri, 06 Nov 2026 10:00:00 GMT</pubDate>
+      <dc:creator>Alessia Rossi</dc:creator>
+      <category>World</category>
+      <description>The Isla Verde passenger ferry has resumed service for the first time since storm damage closed the island&#39;s harbour in 2021.</description>
+      <content:encoded><![CDATA[<p><img src="https://faruk-alam.github.io/mynewspaper/assets/images/articles/ferry-harbour.jpg" alt="A small passenger ferry moored at a harbour quay"></p><p><strong>ISLA VERDE</strong> — Cheers greeted the first scheduled ferry to dock at Isla Verde's harbour in five years on Friday morning, marking the end of a closure that had cut the island off from regular passenger services since a winter storm destroyed its breakwater in 2021.</p>
+<p>The rebuilt harbour includes a higher breakwater, a floating pontoon designed to cope with larger tidal ranges and a small passenger terminal. Construction was repeatedly delayed by funding disputes and two further storm seasons.</p>
+<h2>Life without the ferry</h2>
+<p>For most of the closure, islanders depended on a small air shuttle and occasional cargo boats. Residents said the cost of travel had pushed younger families to leave, and the island's population fell by almost a fifth.</p>
+<blockquote><p>My grandchildren have never been able to just come for the weekend. Today they are on that boat.</p><footer class="not-italic text-sm text-ink-500">— Isla Verde resident, speaking at the harbour</footer></blockquote>
+<p>The service will initially run twice daily, increasing to four crossings in summer. The operator says it expects demand from tourists keen to visit the island's recently mapped deep-sea coral reef, which scientists described last month.</p>
+<p>Isla Verde will host the next Coastal Cities Alliance summit in 2027.</p>]]></content:encoded>
+      <enclosure url="https://faruk-alam.github.io/mynewspaper/assets/images/articles/ferry-harbour.jpg" type="image/jpeg" length="0"/>
+    </item>
+  </channel>
+</rss>

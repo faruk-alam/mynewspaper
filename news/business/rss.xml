@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Daily Meridian – Business and Economy</title>
+    <link>https://faruk-alam.github.io/mynewspaper/news/business/</link>
+    <atom:link href="https://faruk-alam.github.io/mynewspaper/news/business/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>Markets, companies, trade and the economy explained clearly.</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Nov 2026 11:40:00 GMT</lastBuildDate>
+    <image>
+      <url>https://faruk-alam.github.io/mynewspaper/assets/images/brand/logo.svg</url>
+      <title>The Daily Meridian</title>
+      <link>https://faruk-alam.github.io/mynewspaper</link>
+    </image>
+    <item>
+      <title>Northwind Energy posts record quarter as offshore wind output surges</title>
+      <link>https://faruk-alam.github.io/mynewspaper/news/business/northwind-energy-record-quarter-offshore-wind-output.html</link>
+      <guid isPermaLink="true">https://faruk-alam.github.io/mynewspaper/news/business/northwind-energy-record-quarter-offshore-wind-output.html</guid>
+      <pubDate>Thu, 05 Nov 2026 07:15:00 GMT</pubDate>
+      <dc:creator>James Okafor</dc:creator>
+      <category>Business</category>
+      <description>Northwind Energy&#39;s revenue rose 23% to a quarterly record as offshore wind output surged; the company flagged turbine supply-chain pressure.</description>
+      <content:encoded><![CDATA[<p><img src="https://faruk-alam.github.io/mynewspaper/assets/images/articles/offshore-wind.jpg" alt="A curved line of offshore wind turbines standing in the sea under a blue sky"></p><p><strong>AURELIA CITY</strong> — Northwind Energy reported its strongest quarter on record on Wednesday, with revenue up 23% to €2.9bn as its Greyshoal offshore array reached full capacity three months ahead of schedule.</p>
+<p>Operating profit rose 31%, beating analyst expectations, and the company raised its full-year guidance. Shares rose 6% in early trading before settling 4% higher.</p>
+<h2>Supply-chain warning</h2>
+<p>Chief executive remarks accompanying the results struck a more cautious note on 2027, warning that lead times for gearboxes and large castings had lengthened and that two planned projects could slip by up to a year.</p>
+<blockquote><p>Demand is not our problem. Getting steel, bearings and vessels in the right place at the right time is.</p><footer class="not-italic text-sm text-ink-500">— Northwind Energy results statement</footer></blockquote>
+<h2>Market reaction</h2>
+<p>Analysts said the results confirmed a broader trend of offshore wind operators outperforming as power-purchase agreements signed during the 2022–2024 price spike begin to deliver. Several noted that Northwind's hedging programme had protected it from this year's softer wholesale prices.</p>
+<p>The company will pay an interim dividend of €0.18 per share. It also confirmed it is in early talks to supply electricity to a planned sea-wall and pumping programme under the new Coastal Cities Alliance flood-defence fund.</p>]]></content:encoded>
+      <enclosure url="https://faruk-alam.github.io/mynewspaper/assets/images/articles/offshore-wind.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Aurelian Central Bank holds rates steady, signals patience on inflation</title>
+      <link>https://faruk-alam.github.io/mynewspaper/news/business/aurelian-central-bank-holds-rates-signals-patience-on-inflation.html</link>
+      <guid isPermaLink="true">https://faruk-alam.github.io/mynewspaper/news/business/aurelian-central-bank-holds-rates-signals-patience-on-inflation.html</guid>
+      <pubDate>Thu, 29 Oct 2026 13:00:00 GMT</pubDate>
+      <dc:creator>James Okafor</dc:creator>
+      <category>Business</category>
+      <description>Aurelia&#39;s central bank holds its benchmark rate at 3.25% for a fourth meeting, wanting more evidence that services inflation is easing.</description>
+      <content:encoded><![CDATA[<p><img src="https://faruk-alam.github.io/mynewspaper/assets/images/articles/central-bank.jpg" alt="Facade of a grand historic bank building with ornate stonework and columns"></p><p><strong>AURELIA CITY</strong> — The Aurelian Central Bank left its benchmark rate unchanged at 3.25% on Wednesday, as widely expected, and gave little indication that cuts are imminent.</p>
+<p>In its statement the bank said headline inflation had fallen to 2.6% but that services prices were still rising at an annual rate above 4%, driven by wages and rents.</p>
+<h2>Why the bank is waiting</h2>
+<p>Officials pointed to a tight labour market and a rebound in housing costs as reasons to hold. Two members of the nine-person committee voted for a quarter-point cut, one more than at the previous meeting.</p>
+<blockquote><p>We would rather be criticised for being late than for being wrong.</p><footer class="not-italic text-sm text-ink-500">— Central bank governor, press conference</footer></blockquote>
+<p>Markets now price the first cut for March 2027. Mortgage lenders said fixed-rate products were unlikely to fall meaningfully before then, a point seized on by opposition politicians campaigning on housing costs ahead of regional elections.</p>
+<p>The bank's next decision is due on 10 December.</p>]]></content:encoded>
+      <enclosure url="https://faruk-alam.github.io/mynewspaper/assets/images/articles/central-bank.jpg" type="image/jpeg" length="0"/>
+    </item>
+  </channel>
+</rss>

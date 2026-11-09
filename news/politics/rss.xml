@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Daily Meridian – Politics</title>
+    <link>https://faruk-alam.github.io/mynewspaper/news/politics/</link>
+    <atom:link href="https://faruk-alam.github.io/mynewspaper/news/politics/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>Government, elections, policy and power: coverage of the decisions that affect everyday life.</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <image>
+      <url>https://faruk-alam.github.io/mynewspaper/assets/images/brand/logo.svg</url>
+      <title>The Daily Meridian</title>
+      <link>https://faruk-alam.github.io/mynewspaper</link>
+    </image>
+    <item>
+      <title>Aurelia&#39;s parliament passes Digital Services Transparency Bill after marathon debate</title>
+      <link>https://faruk-alam.github.io/mynewspaper/news/politics/aurelia-parliament-passes-digital-services-transparency-bill.html</link>
+      <guid isPermaLink="true">https://faruk-alam.github.io/mynewspaper/news/politics/aurelia-parliament-passes-digital-services-transparency-bill.html</guid>
+      <pubDate>Sat, 07 Nov 2026 21:45:00 GMT</pubDate>
+      <dc:creator>Lucas Moreau</dc:creator>
+      <category>Politics</category>
+      <description>Aurelia&#39;s parliament passes a law requiring large platforms to disclose how recommendation systems rank news and political content.</description>
+      <content:encoded><![CDATA[<p><img src="https://faruk-alam.github.io/mynewspaper/assets/images/articles/parliament-chamber.jpg" alt="Interior of a parliamentary debating chamber with curved rows of wooden benches and seats"></p><p><strong>AURELIA CITY</strong> — Lawmakers voted 212 to 171 shortly after midnight to pass the Digital Services Transparency Bill, ending a 14-hour sitting marked by procedural objections and a last-minute attempt to refer the text back to committee.</p>
+<p>The law requires any platform with more than five million monthly users in Aurelia to publish an annual plain-language explanation of how its recommendation systems rank news and political content, and to offer users a chronological feed option.</p>
+<h2>Key provisions</h2>
+<ul><li>Annual transparency reports on ranking criteria, reviewed by an independent regulator.</li><li>A mandatory non-personalised feed option for all users.</li><li>Access for accredited researchers to aggregated platform data.</li><li>Fines of up to 4% of national turnover for repeated non-compliance.</li></ul>
+<p>Supporters argued that voters have a right to understand why they see what they see during election campaigns. Opponents said the bill was rushed and would push smaller services out of the market because of compliance costs.</p>
+<blockquote><p>Transparency is not censorship. We are not telling platforms what to show. We are asking them to explain how they decide.</p><footer class="not-italic text-sm text-ink-500">— Bill sponsor, during the debate</footer></blockquote>
+<h2>What industry says</h2>
+<p>A trade body representing platform operators said it would 'study the final text carefully' and did not rule out a legal challenge. Smaller Aurelian start-ups welcomed an amendment raising the user threshold from one million to five million.</p>
+<p>The regulator must publish implementation guidance within 180 days. The first transparency reports are expected in early 2028.</p>]]></content:encoded>
+      <enclosure url="https://faruk-alam.github.io/mynewspaper/assets/images/articles/parliament-chamber.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Opposition unveils 500,000-home plan ahead of Aurelia&#39;s regional elections</title>
+      <link>https://faruk-alam.github.io/mynewspaper/news/politics/opposition-unveils-housing-plan-ahead-of-regional-elections.html</link>
+      <guid isPermaLink="true">https://faruk-alam.github.io/mynewspaper/news/politics/opposition-unveils-housing-plan-ahead-of-regional-elections.html</guid>
+      <pubDate>Fri, 30 Oct 2026 13:20:00 GMT</pubDate>
+      <dc:creator>Lucas Moreau</dc:creator>
+      <category>Politics</category>
+      <description>Aurelia&#39;s opposition proposes 500,000 homes in eight years via office conversions and public land for housing cooperatives.</description>
+      <content:encoded><![CDATA[<p><img src="https://faruk-alam.github.io/mynewspaper/assets/images/articles/housing-blocks.jpg" alt="Modern mid-rise apartment buildings with balconies seen from street level"></p><p><strong>AURELIA CITY</strong> — The opposition Progressive Alliance launched its housing programme on Thursday, pledging to deliver half a million homes within eight years if it wins control of the regional assemblies in next month's elections.</p>
+<p>The centrepiece of the plan is a fast-track permitting route for converting vacant commercial buildings into flats, alongside the release of publicly owned land to housing cooperatives at below-market rates.</p>
+<h2>The numbers</h2>
+<p>Party officials say 180,000 homes could come from conversions, 220,000 from cooperative developments on public land and the remainder from an expanded social housing budget. Independent analysts described the conversion target as 'ambitious but not implausible' given the high office vacancy rates in the region's larger cities.</p>
+<blockquote><p>Empty offices and families in temporary accommodation are two halves of the same problem.</p><footer class="not-italic text-sm text-ink-500">— Progressive Alliance housing spokesperson</footer></blockquote>
+<p>The governing coalition dismissed the plan as uncosted, pointing out that the regional assemblies do not control the central bank or national tax policy. Rates were held steady again this month, keeping mortgage costs high.</p>
+<p>Polls suggest housing has overtaken healthcare as the top concern for voters under 40 in the region.</p>]]></content:encoded>
+      <enclosure url="https://faruk-alam.github.io/mynewspaper/assets/images/articles/housing-blocks.jpg" type="image/jpeg" length="0"/>
+    </item>
+  </channel>
+</rss>
