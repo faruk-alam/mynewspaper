@@ -1,8 +1,12 @@
 name: Build and deploy
 
 # Builds the static site on every push to master and publishes the generated dist/ folder
-# to the "deploy" branch. In Hostinger hPanel → Websites → Git, connect this repository and
-# choose branch "deploy" with the install path set to public_html.
+# to the "deploy" branch. That branch is served by GitHub Pages (Settings → Pages → branch "deploy", folder "/")
+# and can also be pulled by Hostinger (hPanel → Websites → Git, branch "deploy", install path public_html).
+#
+# The base path / site URL come from src/data/site.json (basePath "/mynewspaper" for the GitHub Pages
+# project site). For a custom domain or Hostinger root hosting set basePath to "" and url to your domain,
+# or override per build with the SITE_URL and BASE_PATH environment variables below.
 #
 # Optional: add a repository secret HOSTINGER_DEPLOY_WEBHOOK with the "Auto deployment" webhook
 # URL from hPanel so Hostinger pulls the new build immediately instead of waiting for a manual pull.
@@ -41,6 +45,10 @@ jobs:
 
       - name: Build site
         run: npm run build
+        # Uncomment to override src/data/site.json for this host:
+        # env:
+        #   SITE_URL: https://www.yourdomain.com
+        #   BASE_PATH: ''
 
       - name: Check links and HTML
         run: npm run check

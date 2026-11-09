@@ -11,6 +11,14 @@ export class ValidationError extends Error {}
  */
 export async function loadSite() {
   const site = await readJson(path.join(SRC, 'data', 'site.json'));
+  // Environment overrides let CI build the same source for different hosts.
+  if (process.env.SITE_URL) site.url = process.env.SITE_URL;
+  if (process.env.BASE_PATH !== undefined) site.basePath = process.env.BASE_PATH;
+  site.url = site.url.replace(/\/+$/, '');
+  site.basePath = normaliseBasePath(site.basePath);
+  if (site.basePath && !site.url.endsWith(site.basePath)) {
+    console.warn(`  warn: site.url (${site.url}) does not end with basePath (${site.basePath}); canonical URLs may be wrong.`);
+  }
   if (site.logoPng) {
     const pngFile = path.join(SRC, 'images', site.logoPng.replace('/assets/images/', ''));
     if (!(await exists(pngFile))) {
@@ -123,6 +131,13 @@ export async function loadSite() {
     pages,
     stats: { total: articles.length, published: published.length, drafts },
   };
+}
+
+/** "" for root hosting, or "/sub-folder" (leading slash, no trailing slash). */
+export function normaliseBasePath(value = '') {
+  const trimmed = String(value || '').trim().replace(/\/+$/, '');
+  if (!trimmed || trimmed === '/') return '';
+  return trimmed.startsWith('/') ? trimmed : `/${trimmed}`;
 }
 
 async function loadArticles() {

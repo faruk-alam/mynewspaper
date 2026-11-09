@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+﻿#!/usr/bin/env node
 /**
  * Static site generator for the newspaper.
  *
@@ -16,11 +16,23 @@ import { copyFile, mkdir, readFile } from 'node:fs/promises';
 const validateOnly = process.argv.includes('--validate-only');
 const t0 = performance.now();
 
+/**
+ * Prefixes root-relative URLs (href="/…", src="/…", action="/…") with the configured basePath so the
+ * site works from a sub-folder such as GitHub Pages project sites. Absolute URLs are untouched.
+ */
+export function applyBasePath(html, basePath) {
+  if (!basePath) return html;
+  return html.replace(/\b(href|src|action|poster)="\/(?!\/)/g, `$1="${basePath}/`);
+}
+
 async function main() {
   console.log('▶ Loading content…');
   const model = await loadSite();
   const { site, articles, categories, authors, pages, stats } = model;
   console.log(`  ${stats.published} published article(s), ${stats.drafts} draft(s), ${categories.length} categories, ${authors.length} authors`);
+  if (site.basePath) console.log(`  basePath: ${site.basePath}  (site URL: ${site.url})`);
+
+  const writePage = (rel, html) => writeOut(rel, applyBasePath(html, site.basePath));
 
   if (validateOnly) {
     console.log('✔ Content is valid.');
@@ -31,14 +43,14 @@ async function main() {
   const sitemap = [];
 
   // --- Homepage -------------------------------------------------------
-  await writeOut('index.html', homePage(model));
+  await writePage('index.html', homePage(model));
   sitemap.push({ loc: '/', lastmod: articles[0]?.dateModified, changefreq: 'hourly', priority: '1.0' });
   count++;
 
   // --- Articles -------------------------------------------------------
   console.log('▶ Generating article pages…');
   for (const article of articles) {
-    await writeOut(article.url, articlePage(model, article));
+    await writePage(article.url, articlePage(model, article));
     sitemap.push({ loc: article.url, lastmod: article.dateModified, changefreq: 'weekly', priority: '0.8', image: article.image });
     count++;
   }
@@ -51,7 +63,7 @@ async function main() {
     for (let p = 1; p <= total; p++) {
       const slice = category.articles.slice((p - 1) * pageSize, p * pageSize);
       const rel = p === 1 ? `${category.url}index.html` : `${category.url}page/${p}/index.html`;
-      await writeOut(rel, categoryPage(model, category, slice, p, total));
+      await writePage(rel, categoryPage(model, category, slice, p, total));
       count++;
     }
     sitemap.push({ loc: category.url, lastmod: category.articles[0]?.dateModified, changefreq: 'daily', priority: '0.9' });
@@ -61,32 +73,33 @@ async function main() {
   // --- Static pages ---------------------------------------------------
   console.log('▶ Generating static pages…');
   for (const page of pages) {
-    await writeOut(page.url, staticPage(model, page));
+    await writePage(page.url, staticPage(model, page));
     sitemap.push({ loc: page.url, lastmod: page.lastUpdated, changefreq: 'monthly', priority: '0.3' });
     count++;
   }
-  await writeOut('search.html', searchPage(model));
-  await writeOut('404.html', notFoundPage(model));
+  await writePage('search.html', searchPage(model));
+  await writePage('404.html', notFoundPage(model));
   count += 2;
 
   // --- Authors --------------------------------------------------------
-  await writeOut('authors/index.html', authorsIndexPage(model));
+  await writePage('authors/index.html', authorsIndexPage(model));
   sitemap.push({ loc: '/authors/', changefreq: 'monthly', priority: '0.4' });
   for (const author of authors.filter((a) => a.articles.length)) {
-    await writeOut(author.url, authorPage(model, author));
+    await writePage(author.url, authorPage(model, author));
     sitemap.push({ loc: author.url, lastmod: author.articles[0]?.dateModified, changefreq: 'weekly', priority: '0.5' });
     count++;
   }
 
   // --- Search index (client-side) -------------------------------------
+  // Search index URLs are used directly by main.js, so they need the base path too.
   const index = articles.map((a) => ({
     t: a.headline,
     d: a.description,
-    u: a.url,
+    u: `${site.basePath}${a.url}`,
     c: a.categoryData.name,
     a: a.authorData.name,
     p: a.datePublished,
-    i: a.image.src,
+    i: `${site.basePath}${a.image.src}`,
     k: a.tags.join(' '),
   }));
   await writeOut('assets/data/search-index.json', JSON.stringify(index));
@@ -104,6 +117,8 @@ async function main() {
   await mkdir(path.join(DIST, 'assets', 'js'), { recursive: true });
   await copyFile(path.join(SRC, 'js', 'main.js'), path.join(DIST, 'assets', 'js', 'main.js'));
   await copyFile(path.join(SRC, 'images', 'brand', 'favicon.svg'), path.join(DIST, 'favicon.svg'));
+  // Tells GitHub Pages to serve files as-is (no Jekyll processing).
+  await writeOut('.nojekyll', '');
   const htaccess = path.join(SRC, 'static', '.htaccess');
   if (await exists(htaccess)) await copyFile(htaccess, path.join(DIST, '.htaccess'));
   for (const extra of ['ads.txt']) {

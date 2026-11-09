@@ -5,7 +5,11 @@
  */
 import { readdir, readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
-import { DIST } from './lib/utils.js';
+import { DIST, SRC, readJson } from './lib/utils.js';
+import { normaliseBasePath } from './lib/load.js';
+
+const siteCfg = await readJson(path.join(SRC, 'data', 'site.json'));
+const BASE = normaliseBasePath(process.env.BASE_PATH !== undefined ? process.env.BASE_PATH : siteCfg.basePath);
 
 async function walk(dir) {
   const out = [];
@@ -20,6 +24,10 @@ async function walk(dir) {
 function resolveTarget(href) {
   let p = href.split('#')[0].split('?')[0];
   if (!p) return null;
+  if (BASE) {
+    if (p !== BASE && !p.startsWith(`${BASE}/`)) return `__outside_base__${p}`;
+    p = p.slice(BASE.length) || '/';
+  }
   if (p.endsWith('/')) p += 'index.html';
   return path.join(DIST, decodeURIComponent(p));
 }
@@ -78,6 +86,10 @@ for (const file of files) {
     if (!href.startsWith('/') || href.startsWith('//')) continue;
     const target = resolveTarget(href);
     if (!target) continue;
+    if (target.startsWith('__outside_base__')) {
+      problems.push(`${rel}: link not prefixed with basePath ${BASE} → ${href}`);
+      continue;
+    }
     if (!(await existsCached(target))) problems.push(`${rel}: broken link → ${href}`);
   }
 }
@@ -98,4 +110,4 @@ if (problems.length) {
   console.error(`✖ ${problems.length} problem(s):\n  - ${problems.join('\n  - ')}`);
   process.exit(1);
 }
-console.log(`✔ Checked ${files.length} HTML pages: no broken internal links, all pages have title/canonical/description/h1.`);
+console.log(`✔ Checked ${files.length} HTML pages: no broken internal links, all pages have title/canonical/description/h1.${BASE ? ` (basePath ${BASE})` : ''}`);

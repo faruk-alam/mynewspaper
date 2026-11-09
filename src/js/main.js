@@ -2,6 +2,10 @@
 (function () {
   'use strict';
 
+  /* Site base path ("" or "/sub-folder"), derived from the stylesheet URL so it works on any host. */
+  var cssLink = document.querySelector('link[rel="stylesheet"][href$="/assets/css/styles.css"]');
+  var BASE = cssLink ? cssLink.getAttribute('href').replace(/\/assets\/css\/styles\.css$/, '') : '';
+
   /* ---------- Theme toggle ---------- */
   document.querySelectorAll('[data-theme-toggle]').forEach(function (btn) {
     btn.addEventListener('click', function () {
@@ -103,7 +107,7 @@
     function loadIndex() {
       if (index) return Promise.resolve(index);
       if (!loading) {
-        loading = fetch('/assets/data/search-index.json')
+        loading = fetch(BASE + '/assets/data/search-index.json')
           .then(function (r) {
             if (!r.ok) throw new Error('HTTP ' + r.status);
             return r.json();
@@ -194,7 +198,7 @@
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       var q = input.value.trim();
-      history.replaceState(null, '', q ? '/search.html?q=' + encodeURIComponent(q) : '/search.html');
+      history.replaceState(null, '', BASE + (q ? '/search.html?q=' + encodeURIComponent(q) : '/search.html'));
       render(q);
     });
     var timer;

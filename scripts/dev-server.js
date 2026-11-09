@@ -3,10 +3,13 @@
 import http from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
-import { DIST } from './lib/utils.js';
+import { DIST, SRC, readJson } from './lib/utils.js';
+import { normaliseBasePath } from './lib/load.js';
 
 const portArg = process.argv.find((a) => a.startsWith('--port='));
 const PORT = Number(portArg?.split('=')[1]) || Number(process.env.PORT) || 8080;
+const siteCfg = await readJson(path.join(SRC, 'data', 'site.json'));
+const BASE = normaliseBasePath(process.env.BASE_PATH !== undefined ? process.env.BASE_PATH : siteCfg.basePath);
 
 const types = {
   '.html': 'text/html; charset=utf-8',
@@ -34,6 +37,22 @@ http
   .createServer(async (req, res) => {
     try {
       let pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
+      // Mirror the production sub-folder: serve dist/ under BASE and redirect the bare root to it.
+      if (BASE) {
+        if (pathname === '/' ) {
+          res.writeHead(302, { Location: `${BASE}/` }).end();
+          return;
+        }
+        if (pathname === BASE) {
+          res.writeHead(301, { Location: `${BASE}/` }).end();
+          return;
+        }
+        if (!pathname.startsWith(`${BASE}/`)) {
+          await send(res, path.join(DIST, '404.html'), 404);
+          return;
+        }
+        pathname = pathname.slice(BASE.length);
+      }
       if (pathname.endsWith('/')) pathname += 'index.html';
       let file = path.normalize(path.join(DIST, pathname));
       if (!file.startsWith(DIST)) {
@@ -55,4 +74,4 @@ http
       res.writeHead(500).end(String(err));
     }
   })
-  .listen(PORT, () => console.log(`▶ Preview: http://localhost:${PORT}/  (serving dist/ — run "npm run build" first)`));
+  .listen(PORT, () => console.log(`▶ Preview: http://localhost:${PORT}${BASE}/  (serving dist/ — run "npm run build" first)`));

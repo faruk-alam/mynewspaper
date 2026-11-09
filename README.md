@@ -11,7 +11,7 @@ A data-driven, SEO-first digital newspaper built with **HTML5, Tailwind CSS (CLI
 ```bash
 npm install          # once
 npm run build        # generates the site into dist/
-npm run dev          # preview at http://localhost:8080 (serves dist/)
+npm run dev          # preview at http://localhost:8080/mynewspaper/ (serves dist/)
 npm run check        # verifies internal links, HTML structure and metadata
 ```
 
@@ -121,13 +121,22 @@ Ad placeholders are rendered by `adSlot()` in `scripts/lib/components.js` (`data
 3. Replace `src/static/ads.txt` with the line Google provides.
 4. Set `ads.enabled: false` to hide all slots.
 
-## 7. Deploying to Hostinger via GitHub
+## 7. Deploying
 
-1. Push this repository to GitHub (`master` branch).
-2. The workflow in `.github/workflows/deploy.yml` builds the site and force-pushes `dist/` to a `deploy` branch.
-3. In Hostinger **hPanel → Websites → Manage → Advanced → Git**: add the repository, branch **`deploy`**, install path `public_html` (leave empty for the root domain).
-4. Optional: copy the **Auto-deployment webhook URL** from the same page into a GitHub secret named `HOSTINGER_DEPLOY_WEBHOOK` so each build is pulled immediately.
-5. Enable SSL in hPanel; `.htaccess` already redirects to HTTPS and sets caching and security headers.
+The workflow in `.github/workflows/deploy.yml` builds the site on every push to `master` and force-pushes `dist/` to a `deploy` branch. Any static host can serve that branch.
+
+### GitHub Pages (live now)
+
+**https://faruk-alam.github.io/mynewspaper/** — Settings → Pages is set to branch `deploy`, folder `/`. Because a project site lives in a sub-folder, `src/data/site.json` has `"basePath": "/mynewspaper"` and `"url": "https://faruk-alam.github.io/mynewspaper"`; the build prefixes every internal link accordingly and writes `.nojekyll`.
+
+To use a custom domain on Pages: add the domain in Settings → Pages, set `basePath` to `""` and `url` to `https://www.yourdomain.com`, and add a `CNAME` file to `src/static/`.
+
+### Hostinger
+
+1. In Hostinger **hPanel → Websites → Manage → Advanced → Git**: add the repository, branch **`deploy`**, install path `public_html` (leave empty for the root domain).
+2. Set `basePath` to `""` and `url` to your domain in `site.json` (or set `SITE_URL`/`BASE_PATH` env vars in the workflow's build step) — the same build cannot serve both a sub-folder and a root domain.
+3. Optional: copy the **Auto-deployment webhook URL** into a GitHub secret named `HOSTINGER_DEPLOY_WEBHOOK` so each build is pulled immediately.
+4. Enable SSL in hPanel; `.htaccess` already redirects to HTTPS and sets caching and security headers.
 
 Hosting limitations: shared hosting cannot run Node, so the build must happen in GitHub Actions (or locally with a manual upload). Search is client-side (a small JSON index). The newsletter form is UI only.
 
