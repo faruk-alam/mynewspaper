@@ -1,4 +1,4 @@
-# The Daily Meridian – static newspaper publishing platform
+﻿# The Daily Meridian – static newspaper publishing platform
 
 A data-driven, SEO-first digital newspaper built with **HTML5, Tailwind CSS (CLI), vanilla JavaScript and a Node.js build script**. No frameworks, no database, no backend: the build turns JSON article files into a complete static website that runs on Hostinger shared hosting (or any static host).
 
@@ -62,7 +62,7 @@ mynewspaper/
    - homepage, category pages (paginated), author pages
    - `sitemap.xml`, `news-sitemap.xml`, `rss.xml` and per-category RSS
    - related-article links and the client-side search index
-5. Commit and push to `main`. GitHub Actions builds and publishes `dist/` to the `deploy` branch, which Hostinger pulls.
+5. Commit and push to `master`. GitHub Actions builds and publishes `dist/` to the `deploy` branch, which Hostinger pulls.
 
 Validation errors (missing fields, unknown category/author, missing image, duplicate slug) stop the build with a clear message.
 
@@ -76,7 +76,7 @@ Articles are never removed by the build; every JSON file with `status: published
 
 ### Publishing from a phone
 
-Everything is plain JSON in Git. On GitHub mobile (web or app): open `src/data/articles/`, tap **Add file → Create new file**, paste a copy of `_template.json`, edit, commit to `main`. The Action builds and deploys automatically. Upload images via **Add file → Upload files** into `src/images/articles/`.
+Everything is plain JSON in Git. On GitHub mobile (web or app): open `src/data/articles/`, tap **Add file → Create new file**, paste a copy of `_template.json`, edit, commit to `master`. The Action builds and deploys automatically. Upload images via **Add file → Upload files** into `src/images/articles/`.
 
 ## 4. Article fields
 
@@ -123,7 +123,7 @@ Ad placeholders are rendered by `adSlot()` in `scripts/lib/components.js` (`data
 
 ## 7. Deploying to Hostinger via GitHub
 
-1. Push this repository to GitHub (`main` branch).
+1. Push this repository to GitHub (`master` branch).
 2. The workflow in `.github/workflows/deploy.yml` builds the site and force-pushes `dist/` to a `deploy` branch.
 3. In Hostinger **hPanel → Websites → Manage → Advanced → Git**: add the repository, branch **`deploy`**, install path `public_html` (leave empty for the root domain).
 4. Optional: copy the **Auto-deployment webhook URL** from the same page into a GitHub secret named `HOSTINGER_DEPLOY_WEBHOOK` so each build is pulled immediately.

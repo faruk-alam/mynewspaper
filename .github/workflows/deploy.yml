@@ -1,6 +1,6 @@
 name: Build and deploy
 
-# Builds the static site on every push to main and publishes the generated dist/ folder
+# Builds the static site on every push to master and publishes the generated dist/ folder
 # to the "deploy" branch. In Hostinger hPanel → Websites → Git, connect this repository and
 # choose branch "deploy" with the install path set to public_html.
 #
@@ -9,7 +9,7 @@ name: Build and deploy
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths-ignore:
       - '**.md'
   workflow_dispatch:
